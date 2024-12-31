@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Randomevents>
+  <!--  - - - - - -  -->
+  <!--  Cold Caverns -->
+  <!--  - - - - - -  -->
+  <Eventset identifier="Cold Caverns MRPHN" minleveldifficulty="1" maxleveldifficulty="15" chooserandom="False" allowatstart="true" additive="true">
+    <Commonness commonness="10" />
+    <!-- populate the caverns -->
+    <EventSet identifier="caves" chooserandom="true" percave="true" triggereventcooldown="false" allowatstart="true">
+      <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="2" spawntype="Cave" />
+      <MonsterEvent characterfile="Caver" amount="1" spawntype="Cave" />
+    </EventSet>
+    <!-- populate the wrecks -->
+    <!--<EventSet identifier="wreck" chooserandom="false" allowatstart="true" perwreck="true" triggereventcooldown="false" >
+    <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="2" spawntype="wreck" spawnprobability="0.1" />
+  </EventSet>-->
+    <!--20% or 3 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="3" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="0.4" />
+      <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="2" spawntype="mainpath, sidepath" spawnprobability="0.05" />
+    </EventSet>
+    <!--40% or 10 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.40" minmissiontime="600" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="4" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="0.25" />
+      <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="2" spawntype="mainpath, sidepath" spawnprobability="0.1" />
+    </EventSet>
+    <!--60% or 30 min-->
+    <Eventset chooserandom="true" mindistancetraveled="0.60" minmissiontime="1800" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="0.10" />
+      <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="0.15" />
+    </Eventset>
+    <!--80%-->
+    <EventSet chooserandom="true" mindistancetraveled="0.80" minmissiontime="100000" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="0.05" />
+      <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="0.2" />
+    </EventSet>
+  </Eventset>
+  <!-- - - - - - - - -->
+  <!-- Europan Ridge -->
+  <!-- - - - - - - - -->
+  <EventSet identifier="Europan Ridge MRPHN" minleveldifficulty="16" maxleveldifficulty="35" chooserandom="False" allowatstart="true" additive="true">
+    <Commonness commonness="10" />
+    <!-- populate the caverns -->
+    <EventSet identifier="caves" chooserandom="true" percave="true" triggereventcooldown="false" allowatstart="true">
+      <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="Cave" />
+      <MonsterEvent characterfile="Caver" minamount="1" maxamount="2" spawntype="Cave" />
+    </EventSet>
+    <!-- populate the wrecks -->
+    <!--<EventSet identifier="wreck" chooserandom="false" allowatstart="true" perwreck="true" triggereventcooldown="false" >
+    <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="wreck" spawnprobability="0.2" />
+  </EventSet>-->
+    <!--20% or 3 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="4" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="0.3" />
+      <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="2" spawntype="mainpath, sidepath" spawnprobability="0.1" />
+    </EventSet>
+    <!--40% or 10 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.40" minmissiontime="600" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="5" maxamount="6" spawntype="mainpath, sidepath" spawnprobability="0.25" />
+      <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="0.2" />
+    </EventSet>
+    <!--60% or 30 min-->
+    <Eventset chooserandom="true" mindistancetraveled="0.60" minmissiontime="1800" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="0.05" />
+      <MonsterEvent characterfile="Iceshark" minamount="3" maxamount="4" spawntype="mainpath, sidepath" spawnprobability="0.25" />
+    </Eventset>
+    <!--80%-->
+    <EventSet chooserandom="true" mindistancetraveled="0.80" minmissiontime="100000" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="0.01" />
+      <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="0.2" />
+    </EventSet>
+  </EventSet>
+  <!-- - - - - - - - - - - -->
+  <!-- The Aphotic Plateau -->
+  <!-- - - - - - - - - - - -->
+  <EventSet identifier="The Aphotic Plateau MRPHN" minleveldifficulty="36" maxleveldifficulty="50" chooserandom="False" allowatstart="true" additive="true">
+    <Commonness commonness="10" />
+    <!-- populate the caverns -->
+    <EventSet identifier="caves" chooserandom="true" percave="true" triggereventcooldown="false" allowatstart="true">
+      <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="Cave" />
+      <MonsterEvent characterfile="Caver" minamount="2" maxamount="3" spawntype="Cave" />
+    </EventSet>
+    <!-- populate the wrecks -->
+    <!--<EventSet identifier="wreck" chooserandom="false" allowatstart="true" perwreck="true" triggereventcooldown="false" >
+    <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="wreck" spawnprobability="0.35" />
+  </EventSet>-->
+    <!--20% or 3 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="3" maxamount="6" spawntype="mainpath, sidepath" spawnprobability="0.2" />
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.1" />
+      <MonsterEvent characterfile="Iceshark" minamount="3" maxamount="4" spawntype="mainpath, sidepath" spawnprobability="0.2" />
+    </EventSet>
+    <!--40% or 10 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.40" minmissiontime="600" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="2" maxamount="4" spawntype="mainpath, sidepath" spawnprobability="0.1" />
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.15" />
+      <MonsterEvent characterfile="Iceshark" minamount="3" maxamount="4" spawntype="mainpath, sidepath" spawnprobability="0.2" />
+    </EventSet>
+    <!--60% or 30 min-->
+    <Eventset chooserandom="true" mindistancetraveled="0.60" minmissiontime="1800" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="0.05" />
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.2" />
+      <MonsterEvent characterfile="Iceshark" minamount="4" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="0.3" />
+    </Eventset>
+    <!--80%-->
+    <EventSet chooserandom="true" mindistancetraveled="0.80" minmissiontime="100000" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="1" maxamount="2" spawntype="mainpath, sidepath" spawnprobability="0.01" />
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.05" />
+      <MonsterEvent characterfile="Iceshark" amount="5" spawntype="mainpath, sidepath" spawnprobability="0.4" />
+    </EventSet>
+  </EventSet>
+  <!-- - - - - - - - -->
+  <!-- The Great Sea -->
+  <!-- - - - - - - - -->
+  <EventSet identifier="The Great Sea MRPHN" minleveldifficulty="51" maxleveldifficulty="65" chooserandom="False" allowatstart="true" additive="true">
+    <Commonness commonness="10" />
+    <!-- populate the caverns -->
+    <EventSet identifier="caves" chooserandom="true" percave="true" triggereventcooldown="false" allowatstart="true">
+      <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="Cave" />
+      <MonsterEvent characterfile="Caver" minamount="2" maxamount="3" spawntype="Cave" />
+    </EventSet>
+    <!-- populate the wrecks -->
+    <!--<EventSet identifier="wreck" chooserandom="false" allowatstart="true" perwreck="true" triggereventcooldown="false" >
+    <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="wreck" spawnprobability="0.35" />-->
+    <!--20% or 3 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="3" maxamount="6" spawntype="mainpath, sidepath" spawnprobability="0.15" />
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.1" />
+      <MonsterEvent characterfile="Iceshark" minamount="3" maxamount="4" spawntype="mainpath, sidepath" spawnprobability="0.3" />
+    </EventSet>
+    <!--40% or 10 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.40" minmissiontime="600" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Europeantrout" minamount="2" maxamount="4" spawntype="mainpath, sidepath" spawnprobability="0.05" />
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.2" />
+      <MonsterEvent characterfile="Iceshark" minamount="4" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="0.35" />
+    </EventSet>
+    <!--60% or 30 min-->
+    <Eventset chooserandom="true" mindistancetraveled="0.60" minmissiontime="1800" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.4" />
+      <MonsterEvent characterfile="Iceshark" amount="5" spawntype="mainpath, sidepath" spawnprobability="0.4" />
+    </Eventset>
+    <!--80%-->
+    <EventSet chooserandom="true" mindistancetraveled="0.80" minmissiontime="100000" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.1" />
+      <MonsterEvent characterfile="Iceshark" minamount="4" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="0.45" />
+    </EventSet>
+  </EventSet>
+  <!-- - - - - - - - - - - -->
+  <!-- Hydrothermal Wastes -->
+  <!-- - - - - - - - - - - -->
+  <EventSet identifier="Hydrothermal Wastes MRPHN" minleveldifficulty="66" maxleveldifficulty="99" chooserandom="False" allowatstart="true">
+    <Commonness commonness="10" />
+    <!-- populate the caverns -->
+    <EventSet identifier="caves" chooserandom="true" percave="true" triggereventcooldown="false" allowatstart="true">
+      <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="Cave" />
+      <MonsterEvent characterfile="Caver" minamount="3" maxamount="4" spawntype="Cave" />
+    </EventSet>
+    <!-- populate the wrecks -->
+    <!--<EventSet identifier="wreck" chooserandom="false" allowatstart="true" perwreck="true" triggereventcooldown="false" >
+    <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="wreck" spawnprobability="0.35" />
+  </EventSet>-->
+    <!--20% or 3 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.2" />
+      <MonsterEvent characterfile="Iceshark" minamount="4" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="0.35" />
+    </EventSet>
+    <!--40% or 10 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.40" minmissiontime="600" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.3" />
+      <MonsterEvent characterfile="Iceshark" amount="5" spawntype="mainpath, sidepath" spawnprobability="0.35" />
+    </EventSet>
+    <!--60% or 30 min-->
+    <Eventset chooserandom="true" mindistancetraveled="0.60" minmissiontime="1800" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.5" />
+      <MonsterEvent characterfile="Iceshark" amount="6" spawntype="mainpath, sidepath" spawnprobability="0.4" />
+    </Eventset>
+    <!--80%-->
+    <EventSet chooserandom="true" mindistancetraveled="0.80" minmissiontime="100000" minintensity="0.0" maxintensity="1.0">
+      <MonsterEvent characterfile="Muddragon" amount="1" spawntype="mainpath,sidepath" spawnprobability="0.2" />
+      <MonsterEvent characterfile="Iceshark" amount="6" spawntype="mainpath, sidepath" spawnprobability="0.4" />
+    </EventSet>
+  </EventSet>
+</Randomevents>

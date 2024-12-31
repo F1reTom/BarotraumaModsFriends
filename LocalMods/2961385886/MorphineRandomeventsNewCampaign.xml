@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Randomevents>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                               COLD CAVERNS                                -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <EventSet identifier="MNCreatures_ColdCaverns" minleveldifficulty="0" maxleveldifficulty="15" chooserandom="false" allowatstart="true" additive="true" campaign="true">
+    <Commonness commonness="8" />
+    <!-- Populate the caves -->
+    <Eventset identifier="caves" chooserandom="true" percave="true" triggereventcooldown="false" allowatstart="true">
+      <Monsterevent characterfile="Iceshark" minamount="1" maxamount="2" spawntype="cave" />
+      <MonsterEvent characterfile="Caver" minamount="1" maxamount="2" spawntype="cave" />
+    </Eventset>
+    <!--                     -->
+    <!-- Populate the ruins  -->
+    <!--        NONE         -->
+    <!--                     -->
+    <!-- Populate the wrecks -->
+    <!--        NONE         -->
+    <!--                     -->
+    <!--  Populate the abyss -->
+    <!--         NONE        -->
+    <!-- - - - - - - - - -->
+    <!-- 3 MINUTES | 20% -->
+    <!-- - - - - - - - - -->
+    <EventSet identifier="ColdCaverns_1" chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Europantrout" minamount="3" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="0.5">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - - -->
+    <!-- 6 MINUTES | 40% -->
+    <!-- - - - - - - - - -->
+    <EventSet identifier="ColdCaverns_2" chooserandom="true" mindistancetraveled="0.40" minmissiontime="360" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Europantrout" minamount="3" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="0.5">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - -  -->
+    <!-- 12 MINUTES | 60% -->
+    <!-- - - - - - - - -  -->
+    <EventSet identifier="ColdCaverns_3" chooserandom="true" mindistancetraveled="0.60" minmissiontime="720" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Europantrout" minamount="3" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="0.5">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - -  -->
+    <!-- 24 MINUTES | 80% -->
+    <!-- - - - - - - - -  -->
+    <EventSet identifier="ColdCaverns_4" chooserandom="true" mindistancetraveled="0.80" minmissiontime="1440" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Europantrout" minamount="3" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="0.5">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+  </EventSet>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                               EUROPAN RIDGE                               -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <EventSet identifier="MNCreatures_EuropanRidge" minleveldifficulty="16" maxleveldifficulty="35" chooserandom="false" allowatstart="true" additive="true" campaign="true">
+    <Commonness commonness="8" />
+    <!-- Populate the caves -->
+    <Eventset identifier="caves" chooserandom="true" percave="true" triggereventcooldown="false" allowatstart="true">
+      <Monsterevent characterfile="Iceshark" minamount="1" maxamount="3" spawntype="cave" />
+      <MonsterEvent characterfile="Caver" minamount="2" maxamount="3" spawntype="cave" />
+    </Eventset>
+    <!--                     -->
+    <!-- Populate the ruins  -->
+    <!--        NONE         -->
+    <!--                     -->
+    <!-- Populate the wrecks -->
+    <!--        NONE         -->
+    <!--                     -->
+    <!--  Populate the abyss -->
+    <!--         NONE        -->
+    <!-- - - - - - - - - -->
+    <!-- 3 MINUTES | 20% -->
+    <!-- - - - - - - - - -->
+    <EventSet identifier="EuropanRidge_1" chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="3">
+        <MonsterEvent characterfile="Europantrout" minamount="5" maxamount="6" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - - -->
+    <!-- 6 MINUTES | 40% -->
+    <!-- - - - - - - - - -->
+    <EventSet identifier="EuropanRidge_2" chooserandom="true" mindistancetraveled="0.40" minmissiontime="360" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="3">
+        <MonsterEvent characterfile="Europantrout" minamount="5" maxamount="6" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - -  -->
+    <!-- 12 MINUTES | 60% -->
+    <!-- - - - - - - - -  -->
+    <EventSet identifier="EuropanRidge_3" chooserandom="true" mindistancetraveled="0.60" minmissiontime="720" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="3">
+        <MonsterEvent characterfile="Europantrout" minamount="5" maxamount="6" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - -  -->
+    <!-- 24 MINUTES | 80% -->
+    <!-- - - - - - - - -  -->
+    <EventSet identifier="EuropanRidge_4" chooserandom="true" mindistancetraveled="0.80" minmissiontime="1440" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="3">
+        <MonsterEvent characterfile="Europantrout" minamount="5" maxamount="6" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+  </EventSet>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                             THE APHOTIC PLATEAU                           -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <EventSet identifier="MNCreatures_TheAphoticPlateau" minleveldifficulty="36" maxleveldifficulty="50" chooserandom="false" allowatstart="true" additive="true" campaign="true">
+    <Commonness commonness="8" />
+    <!-- Populate the caves -->
+    <Eventset identifier="caves" chooserandom="true" percave="true" triggereventcooldown="false" allowatstart="true">
+      <Monsterevent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="cave" />
+      <MonsterEvent characterfile="Caver" minamount="2" maxamount="3" spawntype="cave" />
+    </Eventset>
+    <!--                     -->
+    <!-- Populate the ruins  -->
+    <!--        NONE         -->
+    <!--                     -->
+    <!-- Populate the wrecks -->
+    <!--        NONE         -->
+    <!--                     -->
+    <!--  Populate the abyss -->
+    <!--         NONE        -->
+    <!-- - - - - - - - - -->
+    <!-- 3 MINUTES | 20% -->
+    <!-- - - - - - - - - -->
+    <EventSet identifier="TheAphoticPlateau_1" chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Europantrout" minamount="5" maxamount="6" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="3">
+        <MonsterEvent characterfile="Iceshark" minamount="3" maxamount="4" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - - -->
+    <!-- 6 MINUTES | 40% -->
+    <!-- - - - - - - - - -->
+    <EventSet identifier="TheAphoticPlateau_2" chooserandom="true" mindistancetraveled="0.40" minmissiontime="360" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Europantrout" minamount="5" maxamount="6" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="3">
+        <MonsterEvent characterfile="Iceshark" minamount="3" maxamount="4" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="MudDragonEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Muddragon" amount="1" maxamountperlevel="1" spawntype="mainpath,sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - -  -->
+    <!-- 12 MINUTES | 60% -->
+    <!-- - - - - - - - -  -->
+    <EventSet identifier="TheAphoticPlateau_3" chooserandom="true" mindistancetraveled="0.60" minmissiontime="720" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Europantrout" minamount="5" maxamount="6" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="3">
+        <MonsterEvent characterfile="Iceshark" minamount="3" maxamount="4" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="MudDragonEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Muddragon" amount="1" maxamountperlevel="1" spawntype="mainpath,sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - -  -->
+    <!-- 24 MINUTES | 80% -->
+    <!-- - - - - - - - -  -->
+    <EventSet identifier="TheAphoticPlateau_4" chooserandom="true" mindistancetraveled="0.80" minmissiontime="1440" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Europantrout" minamount="5" maxamount="6" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="3">
+        <MonsterEvent characterfile="Iceshark" minamount="3" maxamount="4" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="MudDragonEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Muddragon" amount="1" maxamountperlevel="1" spawntype="mainpath,sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+  </EventSet>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                              THE GREAT SEA                                -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <EventSet identifier="MNCreatures_TheGreatSea" minleveldifficulty="51" maxleveldifficulty="65" chooserandom="false" allowatstart="true" additive="true" campaign="true">
+    <Commonness commonness="8" />
+    <!-- Populate the caves -->
+    <Eventset identifier="caves" chooserandom="true" percave="true" triggereventcooldown="false" allowatstart="true">
+      <Monsterevent characterfile="Iceshark" minamount="2" maxamount="3" spawntype="cave" />
+      <MonsterEvent characterfile="Caver" minamount="2" maxamount="3" spawntype="cave" />
+    </Eventset>
+    <!--                     -->
+    <!-- Populate the ruins  -->
+    <!--        NONE         -->
+    <!--                     -->
+    <!-- Populate the wrecks -->
+    <!--        NONE         -->
+    <!--                     -->
+    <!--  Populate the abyss -->
+    <!--         NONE        -->
+    <!-- - - - - - - - - -->
+    <!-- 3 MINUTES | 20% -->
+    <!-- - - - - - - - - -->
+    <EventSet identifier="TheGreatSea_1" chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Europantrout" minamount="7" maxamount="8" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Iceshark" minamount="4" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - - -->
+    <!-- 6 MINUTES | 40% -->
+    <!-- - - - - - - - - -->
+    <EventSet identifier="TheGreatSea_2" chooserandom="true" mindistancetraveled="0.40" minmissiontime="360" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Europantrout" minamount="7" maxamount="8" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Iceshark" minamount="4" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="MudDragonEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Muddragon" amount="1" maxamountperlevel="1" spawntype="mainpath,sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - -  -->
+    <!-- 12 MINUTES | 60% -->
+    <!-- - - - - - - - -  -->
+    <EventSet identifier="TheGreatSea_3" chooserandom="true" mindistancetraveled="0.60" minmissiontime="720" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Europantrout" minamount="7" maxamount="8" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Iceshark" minamount="4" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="MudDragonEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Muddragon" amount="1" maxamountperlevel="1" spawntype="mainpath,sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - -  -->
+    <!-- 24 MINUTES | 80% -->
+    <!-- - - - - - - - -  -->
+    <EventSet identifier="TheGreatSea_4" chooserandom="true" mindistancetraveled="0.80" minmissiontime="1440" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="TroutSwarm" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Europantrout" minamount="7" maxamount="8" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Iceshark" minamount="4" maxamount="5" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="MudDragonEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Muddragon" amount="1" maxamountperlevel="1" spawntype="mainpath,sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="HarpoonWhaleEncounter" chooserandom="false" commonness="1">
+        <MonsterEvent characterfile="Harpoonwhale" amount="1" spawntype="mainpath, sidepath" spawnprobability="1" />
+      </EventSet>
+    </EventSet>
+  </EventSet>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <!--                           HYDROTHERMAL WASTES                             -->
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  <EventSet identifier="MNCreatures_HydrothermalWastes" minleveldifficulty="66" maxleveldifficulty="100" chooserandom="false" allowatstart="true" additive="true" campaign="true">
+    <Commonness commonness="8" />
+    <!-- Populate the caves -->
+    <Eventset identifier="caves" chooserandom="true" percave="true" triggereventcooldown="false" allowatstart="true">
+      <Monsterevent characterfile="Iceshark" minamount="4" maxamount="5" spawntype="cave" />
+      <MonsterEvent characterfile="Caver" minamount="2" maxamount="3" spawntype="cave" />
+    </Eventset>
+    <!--                     -->
+    <!-- Populate the ruins  -->
+    <!--        NONE         -->
+    <!--                     -->
+    <!-- Populate the wrecks -->
+    <!--        NONE         -->
+    <!--                     -->
+    <!--  Populate the abyss -->
+    <!--         NONE        -->
+    <!-- - - - - - - - - -->
+    <!-- 3 MINUTES | 20% -->
+    <!-- - - - - - - - - -->
+    <EventSet identifier="HydrothermalWastes_1" chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Iceshark" amount="5" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="MudDragonEncounter" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Muddragon" amount="1" maxamountperlevel="1" spawntype="mainpath,sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - - -->
+    <!-- 6 MINUTES | 40% -->
+    <!-- - - - - - - - - -->
+    <EventSet identifier="HydrothermalWastes_2" chooserandom="true" mindistancetraveled="0.40" minmissiontime="360" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Iceshark" amount="5" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="MudDragonEncounter" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Muddragon" amount="1" maxamountperlevel="1" spawntype="mainpath,sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - -  -->
+    <!-- 12 MINUTES | 60% -->
+    <!-- - - - - - - - -  -->
+    <EventSet identifier="HydrothermalWastes_3" chooserandom="true" mindistancetraveled="0.60" minmissiontime="720" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Iceshark" amount="5" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="MudDragonEncounter" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Muddragon" amount="1" maxamountperlevel="1" spawntype="mainpath,sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+    </EventSet>
+    <!-- - - - - - - - -  -->
+    <!-- 24 MINUTES | 80% -->
+    <!-- - - - - - - - -  -->
+    <EventSet identifier="HydrothermalWastes_4" chooserandom="true" mindistancetraveled="0.80" minmissiontime="1440" minintensity="0.0" maxintensity="1.0">
+      <EventSet identifier="IcesharkSwarm" chooserandom="false" commonness="4">
+        <MonsterEvent characterfile="Iceshark" amount="5" spawntype="mainpath, sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+      <EventSet identifier="MudDragonEncounter" chooserandom="false" commonness="2">
+        <MonsterEvent characterfile="Muddragon" amount="1" maxamountperlevel="1" spawntype="mainpath,sidepath" spawnprobability="1" musictype="monster" />
+      </EventSet>
+    </EventSet>
+  </EventSet>
+</Randomevents>

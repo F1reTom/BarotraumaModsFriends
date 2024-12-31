@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="MN Creatures" modversion="0.5.1" corepackage="False" steamworkshopid="2961385886" gameversion="1.0.13.2" expectedhash="8DA5F6AC2D17D8356596C4F5AA04C1BC">
+  <RandomEvents file="%ModDir%/MorphineRandomeventsNewCampaign.xml" />
+  <RandomEvents file="%ModDir%/MorphineRandomeventsNewLinear.xml" />
+  <Character file="%ModDir%/Characters/Europantrout/Europantrout.xml" />
+  <Character file="%ModDir%/Characters/Muddragon/Muddragon.xml" />
+  <Character file="%ModDir%/Characters/Iceshark/Iceshark.xml" />
+  <Character file="%ModDir%/Characters/Caver/Caver.xml" />
+  <Character file="%ModDir%/Characters/HarpoonWhale/HarpoonWhale.xml" />
+</contentpackage>
