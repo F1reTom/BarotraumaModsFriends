@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="BaroTraumatic" modversion="1.2.55" corepackage="False" steamworkshopid="2518816103" gameversion="1.7.7.0" expectedhash="830ABCC5FC93EDA81DC9C679855E7952">
+  <EventManagerSettings file="%ModDir%/Events/EventManagerSettings.xml" />
+  <UIStyle file="%ModDir%/Text/style.xml" />
+  <Missions file="%ModDir%/Events/Missions.xml" />
+  <Afflictions file="%ModDir%/Afflictions/BTAffliction.xml" />
+  <Item file="%ModDir%/Items/misc.xml" />
+  <Item file="%ModDir%/Items/disposable_battery.xml" />
+  <NPCSets file="%ModDir%/Events/BanditTweak.xml" />
+  <RandomEvents file="%ModDir%/Events/randomcampaignevents.xml" />
+  <Text file="%ModDir%/Text/English.xml" />
+  <Text file="%ModDir%/Text/Russian.xml" />
+  <Text file="%ModDir%/Text/LatinamericanSpanish.xml" />
+  <Text file="%ModDir%/Text/SimplifiedChinese.xml" />
+  <Other file="%ModDir%/Items/BTheadsets.png" />
+  <Sounds file="%ModDir%/sounds.xml" />
+  <RandomEvents file="%ModDir%/Events/randommissionevents.xml" />
+</contentpackage>

@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Professional Suit" identifier="mSCP_Staff_admin1" nameidentifier="mSCP_Staff_admin1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Torso" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Right Hand" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Left Hand" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Left Lower Arm" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Right Lower Arm" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Left Upper Arm" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Right Upper Arm" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Waist" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Right Thigh" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Left Thigh" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Right Leg" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Left Leg" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Right Shoe" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job1_A1_L1 Left Shoe" texture="Outfit_StaffO5[GENDER]Job1_A1_L1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations, bitewounds" damagemultiplier="0.95" deflectprojectiles="false" />
+    </Wearable>
+  </Item>
+  <Item name="Professional Suit" identifier="mSCP_Staff_admin2" nameidentifier="mSCP_Staff_admin2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Torso" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Right Hand" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Left Hand" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Left Lower Arm" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Right Lower Arm" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Left Upper Arm" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Right Upper Arm" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Waist" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Right Thigh" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Left Thigh" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Right Leg" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Left Leg" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Right Shoe" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job2_A1_L1 Left Shoe" texture="Outfit_StaffO5[GENDER]Job2_A1_L1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations, bitewounds" damagemultiplier="0.95" deflectprojectiles="false" />
+    </Wearable>
+  </Item>
+  <Item name="Professional Waistcoat" identifier="mSCP_Staff_admin3" nameidentifier="mSCP_Staff_admin3" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Torso" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Right Hand" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Left Hand" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Left Lower Arm" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Right Lower Arm" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Left Upper Arm" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Right Upper Arm" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Waist" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Right Thigh" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Left Thigh" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Right Leg" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Left Leg" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Right Shoe" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffO5[GENDER]Job3_A1_L1 Left Shoe" texture="Outfit_StaffO5[GENDER]Job3_A1_L1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations, bitewounds" damagemultiplier="0.95" deflectprojectiles="false" />
+    </Wearable>
+  </Item>
+  <Item name="Construction Specialists Outfit" identifier="mSCP_Staff_builder1" nameidentifier="mSCP_Staff_builder1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Torso" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Right Hand" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Left Hand" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Left Lower Arm" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Right Lower Arm" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Left Upper Arm" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Right Upper Arm" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Waist" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Right Thigh" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Left Thigh" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Right Leg" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Left Leg" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Right Shoe" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffConstrcut[GENDER]Job1_A1_L1 Left Shoe" texture="Outfit_StaffConstrcut[GENDER]Job1_A1_L1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations, bitewounds" damagemultiplier="0.95" deflectprojectiles="false" />
+    </Wearable>
+  </Item>
+  <Item name="Janitor Outfit" identifier="mSCP_Staff_janitor1" nameidentifier="mSCP_Staff_janitor1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Torso" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Right Hand" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Left Hand" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Left Lower Arm" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Right Lower Arm" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Left Upper Arm" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Right Upper Arm" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Waist" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Right Thigh" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Left Thigh" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Right Leg" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Left Leg" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Right Shoe" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A1_L1 Left Shoe" texture="Outfit_StaffJanitor[GENDER]Job1_A1_L1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations, bitewounds" damagemultiplier="0.95" deflectprojectiles="false" />
+    </Wearable>
+  </Item>
+  <Item name="Janitor Outfit + Sleeveless" identifier="mSCP_Staff_janitor1.1" nameidentifier="mSCP_Staff_janitor1.1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Torso" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Right Hand" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Left Hand" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Left Lower Arm" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Right Lower Arm" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Left Upper Arm" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Right Upper Arm" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Waist" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Right Thigh" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Left Thigh" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Right Leg" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Left Leg" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Right Shoe" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffJanitor[GENDER]Job1_A2_L1 Left Shoe" texture="Outfit_StaffJanitor[GENDER]Job1_A2_L1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations, bitewounds" damagemultiplier="0.95" deflectprojectiles="false" />
+    </Wearable>
+  </Item>
+  <Item name="Surgeon Garbs" identifier="mSCP_Staff_surgeon1" nameidentifier="mSCP_Staff_surgeon1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Torso" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Right Hand" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Left Hand" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Left Lower Arm" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Right Lower Arm" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Left Upper Arm" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Right Upper Arm" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Waist" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Right Thigh" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Left Thigh" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Right Leg" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Left Leg" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Right Shoe" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job1_A1_L1 Left Shoe" texture="Outfit_StaffSurgeon[GENDER]Job1_A1_L1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations, bitewounds" damagemultiplier="0.95" deflectprojectiles="false" />
+    </Wearable>
+  </Item>
+  <Item name="Bloody Surgeon Garbs" identifier="mSCP_Staff_surgeon2" nameidentifier="mSCP_Staff_surgeon2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Torso" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Right Hand" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Left Hand" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Left Lower Arm" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Right Lower Arm" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Left Upper Arm" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Right Upper Arm" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Waist" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Right Thigh" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Left Thigh" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Right Leg" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Left Leg" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Right Shoe" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffSurgeon[GENDER]Job2_A1_L1 Left Shoe" texture="Outfit_StaffSurgeon[GENDER]Job2_A1_L1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations, bitewounds" damagemultiplier="0.95" deflectprojectiles="false" />
+    </Wearable>
+  </Item>
+  <Item name="Doctor Outfit" identifier="mSCP_Staff_doctor1" nameidentifier="mSCP_Staff_doctor1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Torso" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Right Hand" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Left Hand" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Left Lower Arm" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Right Lower Arm" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Left Upper Arm" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Right Upper Arm" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Waist" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Right Thigh" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Left Thigh" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Right Leg" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Left Leg" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Right Shoe" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L1 Left Shoe" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations, bitewounds" damagemultiplier="0.95" deflectprojectiles="false" />
+    </Wearable>
+  </Item>
+  <Item name="Doctor Outfit + Jeans" identifier="mSCP_Staff_doctor1.1" nameidentifier="mSCP_Staff_doctor1.1" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Torso" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Right Hand" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Left Hand" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Left Lower Arm" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Right Lower Arm" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Left Upper Arm" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Right Upper Arm" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="RightArm" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Waist" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Right Thigh" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Left Thigh" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Right Leg" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Left Leg" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Right Shoe" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffDoctor[GENDER]Job1_A1_L2 Left Shoe" texture="Outfit_StaffDoctor[GENDER]Job1_A1_L2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations, bitewounds" damagemultiplier="0.95" deflectprojectiles="false" />
+    </Wearable>
+  </Item>
+  <Item name="Chemical Suit (BLACK)" identifier="mSCP_Staff_cleaner2" nameidentifier="mSCP_Staff_cleaner2" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="organicfiber" />
+      <RequiredItem identifier="divingmask" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sheetindex="7,8" sheetelementsize="64,64" />
+    <Sprite name="medicalofficer" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="245,149,119,56" depth="0.6" origin="0.5,0.5" />
+    <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
+    <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Head" texture="Headgear_SCPStaff1.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.55" hidelimb="false" alphaclipotherwearables="true" sourcerect="362,0,120,147" origin="0.5,0.5"></sprite>
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Torso" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Right Hand" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="RightHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Left Hand" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="LeftHand" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Left Lower Arm" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Right Lower Arm" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Left Upper Arm" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Right Upper Arm" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Waist" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Right Thigh" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Left Thigh" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Right Leg" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Left Leg" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Right Shoe" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Outfit_StaffCleanersSuitJob1_A2_L2 Left Shoe" texture="Outfit_StaffCleanersSuitJob1_A2_L2.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations, bitewounds" damagemultiplier="0.95" deflectprojectiles="false" />
+    </Wearable>
+  </Item>
+  <!-- HATS START -->
+  <Item name="Hardhat" identifier="SCP_Staff_Hardhat" aliases="SCP_Staff_Hardhat" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="plastic" />
+      <RequiredItem identifier="ballisticfiber" />
+    </Fabricate>
+    <Deconstruct time="10" />
+    <Sprite name="Captain's Cap 1" texture="Headgear_SCPStaff1.png" depth="0.6" sourcerect="0,0,127,89" origin="0.5,0.5" />
+    <Body width="59" height="40" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="Headgear_SCPStaff1 Wearable" texture="Headgear_SCPStaff1.png" limb="Head" hidewearablesoftype="Hair" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" sourcerect="0,0,127,89" origin="0.5,0.9" />
+      <SkillModifier skillidentifier="helm" skillvalue="10" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" />
+    </Wearable>
+  </Item>
+  <Item name="Black Balaclava" identifier="SCP_Staff_Balaclava2" aliases="SCP_Staff_Balaclava" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="10" />
+    <Sprite name="Captain's Cap 1" texture="Headgear_SCPStaff1.png" depth="0.6" sourcerect="240,0,120,148" origin="0.5,0.5" />
+    <Body width="59" height="40" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="Headgear_SCPStaff1 Wearable" texture="Headgear_SCPStaff1.png" limb="Head" hidewearablesoftype="Hair,moustache,beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.51" hidelimb="false" sourcerect="240,0,120,148" origin="0.5,0.45" />
+      <SkillModifier skillidentifier="helm" skillvalue="10" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" />
+    </Wearable>
+  </Item>
+  <!-- Cleaner hood is built into the outfit -->
+  <!-- <Item name="SCP Cleaners" identifier="SCP_Staff_Cleaners" aliases="SCP_Staff_Cleaners" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.4"> -->
+  <!-- <PreferredContainer primary="crewcab" amount="1" spawnprobability="0.1" notcampaign="true"/> -->
+  <!-- <Price baseprice="75"> -->
+  <!-- <Price storeidentifier="merchantoutpost" minavailable="1" /> -->
+  <!-- <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" /> -->
+  <!-- <Price storeidentifier="merchantresearch" minavailable="1" /> -->
+  <!-- <Price storeidentifier="merchantmilitary" minavailable="1" /> -->
+  <!-- <Price storeidentifier="merchantmine" minavailable="1" /> -->
+  <!-- </Price> -->
+  <!-- <Deconstruct time="10" /> -->
+  <!-- <Sprite name="cleaners_hood" texture="Headgear_SCPStaff1.png" depth="0.6" sourcerect="362,0,120,147" origin="0.5,0.5" /> -->
+  <!-- <Body width="59" height="40" density="15" /> -->
+  <!-- <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect"> -->
+  <!-- <sprite name="Headgear_SCPStaff1 Wearable" texture="Headgear_SCPStaff1.png" limb="Head" hidewearablesoftype="Hair" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.55" hidelimb="false" sourcerect="362,0,120,147" origin="0.5,0.5" /> -->
+  <!-- <SkillModifier skillidentifier="helm" skillvalue="10" /> -->
+  <!-- <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" /> -->
+  <!-- </Wearable> -->
+  <!-- </Item> -->
+  <Item name="Doctor Cap" identifier="SCP_Staff_DoctorCap1" aliases="SCP_Staff_DoctorCap1" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <Sprite name="Doctor Cap 1" texture="Headgear_SCPStaff1.png" depth="0.6" sourcerect="0,146,120,134" origin="0.5,0.5" />
+    <Body width="59" height="40" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="Headgear_SCPStaff1 Wearable" texture="Headgear_SCPStaff1.png" limb="Head" hidewearablesoftype="Hair" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" sourcerect="0,146,120,134" origin="0.55,0.55" />
+      <SkillModifier skillidentifier="helm" skillvalue="10" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" />
+    </Wearable>
+  </Item>
+  <Item name="Doctor Cap + Mask" identifier="SCP_Staff_DoctorCap1.1" aliases="SCP_Staff_DoctorCap1.1" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <Sprite name="Doctor Cap 1.1" texture="Headgear_SCPStaff1.png" depth="0.6" sourcerect="120,146,120,134" origin="0.5,0.5" />
+    <Body width="59" height="40" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="Headgear_SCPStaff1 Wearable" texture="Headgear_SCPStaff1.png" limb="Head" hidewearablesoftype="Hair,moustache,beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" sourcerect="120,146,120,134" origin="0.55,0.55" />
+      <SkillModifier skillidentifier="helm" skillvalue="10" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" />
+    </Wearable>
+  </Item>
+  <Item name="Doctor Cap" identifier="SCP_Staff_DoctorCap2" aliases="SCP_Staff_DoctorCap2" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <Sprite name="Doctor Cap 2" texture="Headgear_SCPStaff1.png" depth="0.6" sourcerect="240,146,120,134" origin="0.5,0.5" />
+    <Body width="59" height="40" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="Headgear_SCPStaff1 Wearable" texture="Headgear_SCPStaff1.png" limb="Head" hidewearablesoftype="Hair" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" sourcerect="240,146,120,134" origin="0.55,0.55" />
+      <SkillModifier skillidentifier="helm" skillvalue="10" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" />
+    </Wearable>
+  </Item>
+  <Item name="Doctor Cap + Mask" identifier="SCP_Staff_DoctorCap2.1" aliases="SCP_Staff_DoctorCap2.1" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <Sprite name="DoctorCap 2.2" texture="Headgear_SCPStaff1.png" depth="0.6" sourcerect="360,146,120,134" origin="0.5,0.5" />
+    <Body width="59" height="40" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="Headgear_SCPStaff1 Wearable" texture="Headgear_SCPStaff1.png" limb="Head" hidewearablesoftype="Hair,moustache,beard" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hidelimb="false" sourcerect="360,146,120,134" origin="0.55,0.55" />
+      <SkillModifier skillidentifier="helm" skillvalue="10" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" />
+    </Wearable>
+  </Item>
+  <Item name="Facemask" identifier="SCP_Staff_Facemask" aliases="SCP_Staff_Facemask" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <Sprite name="Captain's Cap 1" texture="Headgear_SCPStaff1.png" depth="0.6" sourcerect="0,280,120,120" origin="0.5,0.5" />
+    <Body width="59" height="40" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="Headgear_SCPStaff1 Wearable" texture="Headgear_SCPStaff1.png" limb="Head" hidewearablesoftype="Hair" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.45" hidelimb="false" sourcerect="0,280,120,120" origin="0.5,0.5" />
+      <SkillModifier skillidentifier="helm" skillvalue="10" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" />
+    </Wearable>
+  </Item>
+  <Item name="Staff Hat" identifier="SCP_Staff_workhat1" aliases="SCP_Staff_workhat1" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <Sprite name="Captain's Cap 1" texture="Headgear_SCPStaff1.png" depth="0.6" sourcerect="126,280,127,116" origin="0.5,0.5" />
+    <Body width="59" height="40" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="Headgear_SCPStaff1 Wearable" texture="Headgear_SCPStaff1.png" limb="Head" hidewearablesoftype="Hair" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.55" hidelimb="false" sourcerect="126,280,127,116" origin="0.5,0.525" />
+      <SkillModifier skillidentifier="helm" skillvalue="10" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" />
+    </Wearable>
+  </Item>
+  <Item name="Staff Hat" identifier="SCP_Staff_workhat2" aliases="SCP_Staff_workhat2" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <Sprite name="Captain's Cap 1" texture="Headgear_SCPStaff1.png" depth="0.6" sourcerect="248,280,116,116" origin="0.5,0.5" />
+    <Body width="59" height="40" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="Headgear_SCPStaff1 Wearable" texture="Headgear_SCPStaff1.png" limb="Head" hidewearablesoftype="Hair" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.55" hidelimb="false" sourcerect="248,280,116,116" origin="0.5,0.525" />
+      <SkillModifier skillidentifier="helm" skillvalue="10" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" />
+    </Wearable>
+  </Item>
+  <Item name="Staff Hat" identifier="SCP_Staff_workhat3" aliases="SCP_Staff_workhat3" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" description="" scale="0.4">
+    <Fabricate suitablefabricators="fabricator" requiredtime="5">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Price baseprice="75">
+      <Price storeidentifier="merchantoutpost" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantresearch" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" minavailable="1" />
+      <Price storeidentifier="merchantmine" minavailable="1" />
+    </Price>
+    <Deconstruct time="10" />
+    <Sprite name="Captain's Cap 1" texture="Headgear_SCPStaff1.png" depth="0.6" sourcerect="365,280,127,116" origin="0.5,0.5" />
+    <Body width="59" height="40" density="15" />
+    <Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+      <sprite name="Headgear_SCPStaff1 Wearable" texture="Headgear_SCPStaff1.png" limb="Head" hidewearablesoftype="Hair" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.55" hidelimb="false" sourcerect="365,280,116,116" origin="0.5,0.525" />
+      <SkillModifier skillidentifier="helm" skillvalue="10" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,bitewounds" armorsector="0.0,360.0" damagemultiplier="0.9" />
+    </Wearable>
+  </Item>
+  <!-- ID START -->
+</Items>
