@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="K-07 Kasatka" modversion="1.0.17" corepackage="False" steamworkshopid="2547663317" gameversion="0.18.12.0" expectedhash="B51F536C99AD6720E1E70179419423A7">
+  <Submarine file="%ModDir%/K-07 Kasatka.sub" />
+  <Other file="%ModDir%/K-07 Kasatka Drone 3.sub" />
+  <Other file="%ModDir%/K-07 Kasatka Drone 2.sub" />
+  <Other file="%ModDir%/K-07 Kasatka Drone 1.sub" />
+  <Other file="%ModDir%/Gate.sub" />
+  <Other file="%ModDir%/K-07 Kasatka Spotty.sub" />
+</contentpackage>
