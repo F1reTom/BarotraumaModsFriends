@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="endwormtrophy" category="Misc" Tags="mediumitem" canbepicked="true" scale="0.5" impactsoundtag="impact_metal_light" GrabWhenSelected="true">
+    <Price baseprice="2500" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" />
+      <Price storeidentifier="merchantmine" />
+      <Price storeidentifier="merchantengineering" />
+    </Price>
+    <PreferredContainer primary="crewcab" />
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="physicorium" />
+      <Item identifier="physicorium" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Captain/EndwormTrophy.png" sourcerect="0,0,132,132" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Captain/EndwormTrophy.png" depth="0.7" sourcerect="0,0,132,132" origin="0.5,0.5" />
+    <Body radius="20" height="20" density="15" />
+    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="65,-10" handle1="0,10" handle2="0,-10" attachable="true" aimable="true">
+      <RequiredItem items="wrench" type="Equipped" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="charybdistrophy" category="Misc" Tags="mediumitem" canbepicked="true" scale="0.5" impactsoundtag="impact_metal_light" GrabWhenSelected="true">
+    <Price baseprice="2000" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" />
+      <Price storeidentifier="merchantmine" />
+      <Price storeidentifier="merchantengineering" />
+    </Price>
+    <PreferredContainer primary="crewcab" />
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="physicorium" />
+      <Item identifier="physicorium" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Captain/CharybdisTrophy.png" sourcerect="0,0,132,132" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Captain/CharybdisTrophy.png" depth="0.7" sourcerect="0,0,132,132" origin="0.5,0.5" />
+    <Body radius="20" height="20" density="15" />
+    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="65,-10" handle1="0,10" handle2="0,-10" attachable="true" aimable="true">
+      <RequiredItem items="wrench" type="Equipped" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="latchertrophy" category="Misc" Tags="mediumitem" canbepicked="true" scale="0.5" impactsoundtag="impact_metal_light" GrabWhenSelected="true">
+    <Price baseprice="1600" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" />
+      <Price storeidentifier="merchantmine" />
+      <Price storeidentifier="merchantengineering" />
+    </Price>
+    <PreferredContainer primary="crewcab" />
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="physicorium" />
+      <Item identifier="physicorium" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Captain/LatcherTrophy.png" sourcerect="0,0,132,132" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Captain/LatcherTrophy.png" depth="0.7" sourcerect="0,0,132,132" origin="0.5,0.5" />
+    <Body radius="20" height="20" density="15" />
+    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="5.0" aimpos="65,-10" handle1="0,10" handle2="0,-10" attachable="true" aimable="true">
+      <RequiredItem items="wrench" type="Equipped" />
+    </Holdable>
+  </Item>
+  <Item name="" identifier="joviangrail" category="Weapon" Tags="smallitem,weapon,mountableweapon" hideinmenus="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True">
+    <PreferredContainer primary="secarmcab" secondary="armcab" spawnprobability="0.0" />
+    <Price baseprice="2000" sold="false" />
+    <InventoryIcon texture="%ModDir%/Captain/JovianGrailIcon.png" sourcerect="0,0,100,100" origin="0.5,0.5" />
+    <sprite texture="%ModDir%/Captain/JovianGrail.png" sourcerect="0,0,64,100" depth="0.55" origin="0.5,0.5" />
+    <Body width="64" height="100" density="25" />
+    <MeleeWeapon slots="RightHand+LeftHand,Any" controlpose="true" aimpos="50,4" handle1="-4,-6" handle2="0,6" holdangle="20" reload="1" range="100" combatpriority="1" msg="ItemMsgPickUpSelect">
+      <Attack structuredamage="8" itemdamage="8" targetimpulse="10">
+        <Affliction identifier="blunttrauma" strength="8" />
+        <Affliction identifier="drunk" strength="5" />
+        <Affliction identifier="stun" strength="0.3" />
+        <StatusEffect type="OnUse" target="UseTarget">
+          <Conditional entitytype="eq Character" />
+          <Sound file="Content/Items/Weapons/Smack1.ogg" selectionmode="random" range="500" />
+          <Sound file="Content/Items/Weapons/Smack2.ogg" range="500" />
+        </StatusEffect>
+      </Attack>
+      <StatusEffect type="OnSecondaryUse" target="Contained" condition="-30" disabledeltatime="false">
+        <Conditional Condition="gte 1" />
+      </StatusEffect>
+      <StatusEffect type="OnSecondaryUse" target="Contained,Character">
+        <Conditional Condition="gte 1" />
+        <RequiredItem items="ethanol" type="contained" />
+        <Affliction identifier="drunk" amount="5.0" />
+        <ReduceAffliction identifier="psychosis" amount="5.0" />
+        <ReduceAffliction identifier="hallucinating" amount="5.0" />
+      </StatusEffect>
+      <StatusEffect type="InWater" target="Contained" Condition="100" />
+    </MeleeWeapon>
+    <ItemContainer capacity="1" maxstacksize="1">
+      <Containable items="ethanol" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="oldsailorswallet" sonarsize="2" category="Material" maxstacksize="8" maxstacksizecharacterinventory="1" Tags="smallitem" hideinmenus="true" canbepicked="true" description="" cargocontaineridentifier="metalcrate" scale="0.2" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="storagecab" />
+    <Price baseprice="300" sold="false" />
+    <Deconstruct time="10">
+      <Item identifier="carbon" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Captain/OldSailorsWallet.png" sourcerect="0,0,100,84" />
+    <Sprite texture="%ModDir%/Captain/OldSailorsWallet.png" sourcerect="0,0,100,84" depth="0.55" origin="0.5,0.5" />
+    <Body width="45" height="20" density="25" />
+    <Holdable slots="Any,RightHand,LeftHand" handle1="0,-4" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="coffeebean" category="Misc" Tags="smallitem,seed,plantitem" maxstacksize="8" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" spritecolor="75,40,30,255">
+    <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" depth="0.2" sourcerect="830,636,31,30" origin="0.5,0.5" />
+    <PreferredContainer primary="wreckstoragecab,abandonedstoragecab" amount="1" spawnprobability="0.1" />
+    <PreferredContainer primary="seedbag" amount="1" spawnprobability="0.3" />
+    <Price baseprice="30">
+      <Price storeidentifier="merchantoutpost" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1.2" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="0.9" minavailable="2" />
+      <Price storeidentifier="merchantmilitary" sold="false" multiplier="1.2" />
+      <Price storeidentifier="merchantmine" sold="false" multiplier="0.75" />
+    </Price>
+    <Deconstruct time="30">
+      <Item identifier="carbon" mincondition="0.5" />
+    </Deconstruct>
+    <Growable growthspeed="0.069" pickingtime="3" maximumvines="48" maxhealth="500" hardiness="0.069" floodtolerance="0.5" seedrate="0" productrate="0.0082" flowertint="200,200,200,255" flowerquantity="16" baseflowerscale="0.25" vinescale="0.25" vinetint="75,120,30,255">
+      <ProducedItem identifier="coffeeplantpod" probability="1.0" />
+      <VineSprites vineatlas="Content/Items/Gardening/branches.png" decayatlas="Content/Items/Gardening/branches_overlay.png">
+        <LeafSprite texture="%ModDir%/Captain/Coffeeleaves.png" sourcerect="0,0,256,256" />
+        <LeafSprite texture="%ModDir%/Captain/Coffeeleaves.png" sourcerect="256,0,256,256" />
+        <FlowerSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="0,768,128,128" />
+        <FlowerSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="128,768,128,128" />
+        <FlowerSprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" sourcerect="256,768,128,128" />
+        <VineSprite type="Stem" sourcerect="640,128,128,128" />
+        <VineSprite type="CrossJunction" sourcerect="512,128,128,128" />
+        <VineSprite type="VerticalLane" sourcerect="512,0,128,128" />
+        <VineSprite type="HorizontalLane" sourcerect="640,0,128,128" />
+        <VineSprite type="TurnTopRight" sourcerect="0,0,128,128" />
+        <VineSprite type="TurnTopLeft" sourcerect="384,0,128,128" />
+        <VineSprite type="TurnBottomLeft" sourcerect="256,0,128,128" />
+        <VineSprite type="TurnBottomRight" sourcerect="128,0,128,128" />
+        <VineSprite type="TSectionTop" sourcerect="128,128,128,128" />
+        <VineSprite type="TSectionLeft" sourcerect="256,128,128,128" />
+        <VineSprite type="TSectionBottom" sourcerect="384,128,128,128" />
+        <VineSprite type="TSectionRight" sourcerect="0,128,128,128" />
+        <VineSprite type="StumpTop" sourcerect="768,0,128,128" />
+        <VineSprite type="StumpLeft" sourcerect="896,0,128,128" />
+        <VineSprite type="StumpBottom" sourcerect="768,128,128,128" />
+        <VineSprite type="StumpRight" sourcerect="896,128,128,128" />
+      </VineSprites>
+    </Growable>
+    <Body radius="15" density="10.1" />
+    <Holdable canBeCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <Item name="" identifier="coffeeplantpod" category="Material" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,plantitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="8" allowasextracargo="true">
+    <Sprite texture="%ModDir%/Captain/CoffeePlantPod.png" depth="0.2" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Body radius="30" density="9" waterdragcoefficient="20" />
+    <Price baseprice="50" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" multiplier="1.2" />
+      <Price storeidentifier="merchantresearch" multiplier="1.1" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.8" />
+      <Price storeidentifier="merchantmine" multiplier="0.75" />
+    </Price>
+    <Deconstruct time="20">
+      <RequiredItem identifier="carbon" mincondition="0.5" />
+      <RequiredItem identifier="coffeebean" mincondition="0.5" />
+      <RequiredItem identifier="coffeebean" mincondition="0.5" />
+    </Deconstruct>
+    <Throwable characterusable="true" canBeCombined="false" slots="Any,RightHand,LeftHand" throwforce="3.5" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnImpact" target="This" Condition="0.0" setvalue="true">
+        <Explosion range="0.0" structuredamage="0" itemdamage="0" force="0.0" severlimbsprobability="0.0" decal="fruitsplatter1" decalsize="1.0" />
+        <ParticleEmitter particle="whitegoosplash" anglemin="0" anglemax="360" particleamount="2" velocitymin="0" velocitymax="0" scalemin="1.5" scalemax="2" />
+        <ParticleEmitter particle="fruitchunks" anglemin="0" anglemax="360" particleamount="10" velocitymin="200" velocitymax="300" scalemin="0.4" scalemax="0.8" />
+      </StatusEffect>
+      <StatusEffect type="OnFire" target="This" Condition="-50.0" />
+      <StatusEffect type="OnBroken" target="This" Condition="-100.0">
+        <Remove />
+      </StatusEffect>
+    </Throwable>
+    <PreferredContainer primary="plantcontainer" />
+  </Item>
+  <Item name="" identifier="coffeebag" category="Misc" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,coffee" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" isshootable="true">
+    <PreferredContainer primary="crewcab" spawnprobability="0.05" notcampaign="true" />
+    <PreferredContainer secondary="wreckcrewcab,abandonedcrewcab" spawnprobability="0.1" />
+    <Price baseprice="90">
+      <Price storeidentifier="merchantoutpost" multiplier="1.1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="2" />
+      <Price storeidentifier="merchantresearch" sold="false" />
+      <Price storeidentifier="merchantmilitary" sold="false" />
+      <Price storeidentifier="merchantmine" sold="false" />
+    </Price>
+    <Fabricate suitablefabricators="vendingmachine" requiredtime="1" requiredmoney="300" fabricationlimitmin="0" fabricationlimitmax="10" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="helm" level="30" />
+      <RequiredItem identifier="coffeebean" />
+      <RequiredItem identifier="coffeebean" />
+      <RequiredItem identifier="coffeebean" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="coffeebean" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Captain/CoffeeBag.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Captain/CoffeeBag.png" sourcerect="0,0,64,64" depth="0.55" origin="0.5,0.5" />
+    <Body width="30" height="50" density="10.5" />
+    <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="emptymug" category="Misc" Tags="smallitem,mug" scale="0.3" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" isshootable="true" requireaimtouse="true">
+    <PreferredContainer primary="crewcab" spawnprobability="0.05" notcampaign="true" />
+    <PreferredContainer secondary="wreckcrewcab,abandonedcrewcab" spawnprobability="0.1" />
+    <Price baseprice="90">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="helm" level="30" />
+      <RequiredItem identifier="silicon" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="magnesium" />
+    </Fabricate>
+    <Deconstruct time="20" />
+    <InventoryIcon texture="%ModDir%/Captain/CoffeeMug.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Captain/CoffeeMug.png" sourcerect="0,0,64,64" depth="0.55" origin="0.5,0.5" />
+    <Body width="50" height="50" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" controlpose="true" holdpos="28,-20" aimable="false" aimpos="28,10" handle1="-8,-5" msg="ItemMsgPickUpSelect">
+      <StatusEffect tags="medical" type="OnSecondaryUse" target="Character">
+        <Affliction identifier="psychosisresistance" amount="15" />
+        <ReduceAffliction identifier="psychosis" amount="5" />
+        <ReduceAffliction identifier="hallucinating" amount="10" />
+        <RequiredItem items="pipetobacco" type="Contained" />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="coffeemug" category="Misc" Tags="smallitem,coffee,mug" scale="0.3" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" isshootable="true" requireaimtouse="true">
+    <PreferredContainer primary="crewcab" spawnprobability="0.0" notcampaign="true" />
+    <PreferredContainer secondary="wreckcrewcab,abandonedcrewcab" spawnprobability="0.0" notcampaign="true" />
+    <Price baseprice="150" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredSkill identifier="helm" level="30" />
+      <RequiredItem identifier="coffeebag" />
+      <RequiredItem identifier="emptymug" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="10">
+      <RequiredSkill identifier="helm" level="30" />
+      <RequiredItem identifier="coffeebag" />
+      <RequiredItem tag="mug" mincondition="0.0" maxcondition="0.1" usecondition="false" />
+    </Fabricate>
+    <Deconstruct time="10" />
+    <InventoryIcon texture="%ModDir%/Captain/CoffeeMug.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Captain/CoffeeMug.png" sourcerect="0,0,64,64" depth="0.55" origin="0.5,0.5" />
+    <Body width="50" height="50" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" controlpose="true" holdpos="28,-20" aimable="false" aimpos="28,10" handle1="-8,-5" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnActive" target="This">
+        <Conditional InWater="false" />
+        <ParticleEmitter particle="swirlysmoke" particlespersecond="1" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This" Condition="-20.0" disabledeltatime="false">
+        <Conditional InWater="true" />
+        <ParticleEmitter particle="bubbles" particlespersecond="3" scalemin="0.3" scalemax="0.5" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+      </StatusEffect>
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-6.0" disabledeltatime="false" />
+      <StatusEffect tags="medical" type="OnSecondaryUse" target="Character">
+        <Affliction identifier="haste" amount="8" />
+        <ReduceAffliction identifier="slow" amount="5" />
+        <ReduceAffliction identifier="drunk" amount="5" />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="captainsblendbag" category="Misc" maxstacksize="32" maxstacksizecharacterinventory="8" Tags="smallitem,coffee" cargocontaineridentifier="metalcrate" scale="0.5" inventoryiconcolor="200,200,200,255" impactsoundtag="impact_metal_light" isshootable="true">
+    <PreferredContainer primary="crewcab" spawnprobability="0.0" notcampaign="true" />
+    <PreferredContainer secondary="wreckcrewcab,abandonedcrewcab" spawnprobability="0.0" notcampaign="true" />
+    <Price baseprice="160" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.1" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true">
+      <RequiredSkill identifier="helm" level="30" />
+      <RequiredItem identifier="coffeebean" />
+      <RequiredItem identifier="coffeebean" />
+      <RequiredItem identifier="tobaccobud" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="coffeebean" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/Captain/CoffeeBag.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Captain/CoffeeBag.png" sourcerect="0,0,64,64" depth="0.55" origin="0.5,0.5" />
+    <Body width="30" height="50" density="10.5" />
+    <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  <Item name="" identifier="captainsmug" category="Misc" Tags="smallitem,coffee,mug" scale="0.3" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" isshootable="true" requireaimtouse="true">
+    <PreferredContainer primary="crewcab" spawnprobability="0.0" notcampaign="true" />
+    <PreferredContainer secondary="wreckcrewcab,abandonedcrewcab" spawnprobability="0" notcampaign="true" />
+    <Price baseprice="250" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" />
+      <Price storeidentifier="merchantmine" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10" requiresrecipe="true">
+      <RequiredSkill identifier="helm" level="30" />
+      <RequiredItem identifier="captainsblendbag" />
+      <RequiredItem identifier="emptymug" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="10" requiresrecipe="true">
+      <RequiredSkill identifier="helm" level="30" />
+      <RequiredItem identifier="captainsblendbag" />
+      <RequiredItem tag="mug" mincondition="0.0" maxcondition="0.1" usecondition="false" />
+    </Fabricate>
+    <Deconstruct time="10" />
+    <InventoryIcon texture="%ModDir%/Captain/CoffeeMug.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Captain/CoffeeMug.png" sourcerect="0,0,64,64" depth="0.55" origin="0.5,0.5" />
+    <Body width="50" height="50" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" controlpose="true" holdpos="28,-20" aimable="false" aimpos="28,10" handle1="-8,-5" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnActive" target="This">
+        <Conditional InWater="false" />
+        <ParticleEmitter particle="swirlysmoke" particlespersecond="1" scalemin="1" scalemax="2" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="This" Condition="-20.0" disabledeltatime="false">
+        <Conditional InWater="true" />
+        <ParticleEmitter particle="bubbles" particlespersecond="3" scalemin="0.3" scalemax="0.5" anglemin="0" anglemax="360" velocitymin="0" velocitymax="10" />
+      </StatusEffect>
+      <StatusEffect type="OnSecondaryUse" target="This" Condition="-6.0" disabledeltatime="false" />
+      <StatusEffect tags="medical" type="OnSecondaryUse" target="Character">
+        <Affliction identifier="haste" amount="12" />
+        <Affliction identifier="clearhead" amount="10" />
+        <ReduceAffliction identifier="slow" amount="10" />
+        <ReduceAffliction identifier="drunk" amount="10" />
+        <ReduceAffliction identifier="psychosis" amount="5" />
+        <ReduceAffliction identifier="hallucinating" amount="10" />
+      </StatusEffect>
+    </Holdable>
+  </Item>
+</Items>

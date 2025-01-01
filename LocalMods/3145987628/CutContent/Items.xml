@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- Doesn't work, cut for time -->
+  <Item name="" identifier="scope" category="Scope" Tags="smallitem,tool" canbeselected="true" hideinmenus="true" selectkey="Aim" focusonselected="true" offsetonselected="1000" cargocontaineridentifier="metalcrate" Scale="0.25" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="armcab" spawnprobability="0" />
+    <Price baseprice="450" sold="false">
+      <Price storeidentifier="merchantoutpost" />
+      <Price storeidentifier="merchantcity" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" />
+      <Price storeidentifier="merchantmine" multiplier="1.25" />
+    </Price>
+    <Deconstruct time="15">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="flashlight" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/CutContent/scope.png" sourcerect="0,0,100,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/CutContent/scope.png" sourcerect="0,0,100,64" depth="0.55" origin="0.5,0.5" />
+    <Body width="48" height="15" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand,Head" holdpos="30,-50" aimpos="60,0" handle1="-20,0" msg="ItemMsgPickUpSelect" />
+  </Item>
+  <!-- Works but cut for balance -->
+  <Item name="" identifier="mk1thermalhelmet" category="Equipment" tags="smallitem,foureyes" hideinmenus="true" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.25">
+    <PreferredContainer primary="secarmcab" />
+    <PreferredContainer secondary="armcab" />
+    <Price baseprice="600" sold="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+      <Price storeidentifier="merchantcity" multiplier="1.2" />
+      <Price storeidentifier="merchantresearch" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" />
+      <Price storeidentifier="merchantmine" />
+      <Price storeidentifier="merchantarmory" multiplier="0.9" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="iron" amount="2" />
+    </Deconstruct>
+    <InventoryIcon texture="%ModDir%/CutContent/mk1thermalhelmeticon.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite name="Mk1 Thermal Helmet" texture="%ModDir%/CutContent/mk1thermalhelmetsprite.png" sourcerect="0,0,128,128" depth="0.6" origin="0.5,0.5" />
+    <Body radius="30" density="25" />
+    <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
+      <StatusHUD drawhudwhenequipped="true" overlaycolor="176,0,0,120" range="3000" thermalgoggles="true" showdeadcharacters="false" showtexts="false" />
+      <StatusHUD drawhudwhenequipped="true" />
+      <damagemodifier afflictionidentifiers="lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds, blunttrauma" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.05" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="concussion" armorsector="0.0,360.0" damagemultiplier="0.0" damagesound="" deflectprojectiles="true" />
+      <sprite name="Mk1 Thermal Helmet" texture="%ModDir%/CutContent/mk1thermalhelmetsprite.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.45" hidewearablesoftype="Hair" sourcerect="0,0,128,128" origin="0.5,0.5" />
+    </Wearable>
+  </Item>
+  <!-- Not in game at all because currently in a different mod. May add to this mod eventually but needs tweaking
+  
+  <Item name="" identifier="riflebulletfmj" category="Weapon" maxstacksize="32" maxstacksizecharacterinventory="12" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,rifleammo,riflemanbonus" Scale="0.5" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="rifle" spawnprobability="0"/>
+    <PreferredContainer primary="armcab" spawnprobability="0"/>
+    <PreferredContainer secondary="outpostsecarmcab" minamount="1" maxamount="3" spawnprobability="0.2" />
+    <PreferredContainer secondary="wreckarmcab,wrecksecarmcab,abandonedarmcab,abandonedsecarmcab" minamount="1" maxamount="3" spawnprobability="0.1" />
+    <PreferredContainer secondary="secarmcab" />
+    <Price baseprice="65" minleveldifficulty="15">
+      <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.5" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="4" sold="true" />
+      <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.9" minavailable="12" />
+      <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
+      <Price storeidentifier="merchantarmory" multiplier="0.9" minavailable="12" />
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true" amount="6">
+      <RequiredSkill identifier="weapons" level="40" />
+      <RequiredItem tag="munition_propulsion" description="fabricationdescription.munition_propulsion" />
+      <RequiredItem tag="advmunition_core" description="fabricationdescription.advmunition_core" />
+      <RequiredItem tag="advmunition_tip" description="fabricationdescription.advmunition_tip" />
+      <RequiredItem tag="advmunition_jacket" description="fabricationdescription.advmunition_jacket" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Security/FMJRifleBullet.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Security/FMJRifleBulletSprite.png" sourcerect="0,0,24,8" depth="0.55" origin="0.5,0.5" />
+    <Body width="24" height="8" density="30" />
+    <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+    <Projectile characterusable="false" hitscan="true" maxtargetstohit="10" damagedoors="true">
+      <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,200,175" scalemultiplier="1,0.8" />
+      <Attack structuredamage="1" targetforce="12" itemdamage="5" severlimbsprobability="0.05" penetration="0.90">
+        <Affliction identifier="gunshotwound" strength="15" />
+        <Affliction identifier="bleeding" strength="4" />
+        <Affliction identifier="stun" strength="0.2" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="2,2" />
+      </StatusEffect>
+	  <StatusEffect type="OnImpact" target="This" condition="-10" />	
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  -->
+</Items>
