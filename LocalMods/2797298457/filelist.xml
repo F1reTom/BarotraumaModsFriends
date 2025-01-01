@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="MoreMissionsMod" modversion="6.0" corepackage="False" steamworkshopid="2797298457" gameversion="1.5.8.0" expectedhash="745CB9425566726E377BB23FA3A3914B">
+  <RandomEvents file="%ModDir%/OutpostEvents.xml" />
+</contentpackage>
