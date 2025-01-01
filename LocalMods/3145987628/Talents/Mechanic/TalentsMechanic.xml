@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="swarmageddon">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="2,0" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.dementonitechargeshell,entityname.dementonitedecoyshell,entityname.dementoniteshell,entityname.flakcannonammoboxdementonite,entityname.dementonitecoilgunammobox" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="dementonitechargeshell" />
+    <AddedRecipe itemidentifier="dementonitedecoyshell" />
+    <AddedRecipe itemidentifier="dementoniteshell" />
+    <AddedRecipe itemidentifier="flakcannonammoboxdementonite" />
+    <AddedRecipe itemidentifier="dementonitecoilgunammobox" />
+  </Talent>
+  <Talent identifier="garbagedisposal">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="3,0" sheetelementsize="128,128" />
+    <Description tag="talentdescription.garbagedisposal" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.scrapbotspawner" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="scrapbotspawner" />
+  </Talent>
+  <Talent identifier="scrapnado">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="3,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.scrapnado">
+      <Replace tag="[itemname]" value="entityname.scrapmachinepistol" color="gui.orange" />
+      <Replace tag="[amount]" value="75" color="gui.green" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.scrapmachinepistol" color="gui.orange" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="scrappellet" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier=".75" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="scrapmachinepistol" />
+  </Talent>
+  <Talent identifier="nanobots">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="1,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.tadementoniteweldingtool,entityname.tadementonitetank" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="tadementoniteweldingtool" />
+    <AddedRecipe itemidentifier="tadementonitetank" />
+  </Talent>
+  <Override>
+    <Talent identifier="ironstorm">
+      <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="7,5" sheetelementsize="128,128" />
+      <Description tag="talentdescription.ironstorm">
+        <Replace tag="[chance]" value="10" color="gui.green" />
+      </Description>
+      <Description tag="talentdescription.ironstormscrapbuff">
+        <Replace tag="[itemname]" value="entityname.scrapcannon" color="gui.orange" />
+        <Replace tag="[amount]" value="75" color="gui.green" />
+      </Description>
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.scrapcannon" color="gui.orange" />
+      </Description>
+      <AbilityGroupEffect abilityeffecttype="None">
+        <Abilities>
+          <CharacterAbilitySetMetadataInt identifier="tiermodifieroverride" value="3" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AbilityGroupEffect abilityeffecttype="OnAttack">
+        <Conditions>
+          <AbilityConditionAttackData tags="scrapbuckshot" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityModifyAttackData addeddamagemultiplier=".75" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AddedRecipe itemidentifier="scrapcannon" />
+    </Talent>
+  </Override>
+</Talents>

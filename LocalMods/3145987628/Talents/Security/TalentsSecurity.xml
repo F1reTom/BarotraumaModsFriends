@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="firingsquad">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="6,0" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.incendiarysmgmagazine,entityname.incendiaryrevolverround,entityname.incendiaryriflebullet,entityname.incendiaryshotgunshell" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="incendiarysmgmagazine" />
+    <AddedRecipe itemidentifier="incendiaryrevolverround" />
+    <AddedRecipe itemidentifier="incendiaryriflebullet" />
+    <AddedRecipe itemidentifier="incendiaryshotgunshell" />
+  </Talent>
+  <Talent identifier="operator">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="6,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.additionalstattypeself">
+      <Replace tag="[amount]" value="10" color="gui.green" />
+      <Replace tag="[stattype]" value="stattypenames.rangedattackspeed" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.sgar,entityname.sgarmagazine" color="gui.orange" />
+    </Description>
+    <AbilityGroupInterval interval="0.5">
+      <Abilities>
+        <CharacterAbilityModifyStat stattype="RangedAttackSpeed" value="0.1" />
+      </Abilities>
+    </AbilityGroupInterval>
+    <AddedRecipe itemidentifier="sgar" />
+    <AddedRecipe itemidentifier="sgarmagazine" />
+  </Talent>
+  <Override>
+    <Talent identifier="pacificationkit">
+      <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="4,3" sheetelementsize="128,128" />
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.autoshotgun,entityname.stungundartfulgurium,entityname.riotshield,entityname.mk1securitygear,entityname.mk1securityhelmet" color="gui.orange" />
+      </Description>
+      <AddedRecipe itemidentifier="autoshotgun" />
+      <AddedRecipe itemidentifier="stungundartfulgurium" />
+      <AddedRecipe itemidentifier="riotshield" />
+      <AddedRecipe itemidentifier="mk1securitygear" />
+      <AddedRecipe itemidentifier="mk1securityhelmet" />
+    </Talent>
+    <Talent identifier="warlord">
+      <Description tag="talentdescription.warlord">
+        <Replace tag="[amount]" value="10" color="gui.green" />
+        <Replace tag="[maxamount]" value="50" color="gui.green" />
+      </Description>
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.hmg,entityname.hmgmagazine" color="gui.orange" />
+      </Description>
+      <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="3,4" sheetelementsize="128,128" />
+      <AddedRecipe itemidentifier="hmg" />
+      <AddedRecipe itemidentifier="hmgmagazine" />
+      <AbilityGroupEffect abilityeffecttype="OnAttack">
+        <Conditions>
+          <AbilityConditionAttackData weapontype="handheldranged" />
+          <AbilityConditionNearbyCharacterCount distance="1000" targettypes="Enemy" count="1" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityModifyAttackData addeddamagemultiplier="0.1" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AbilityGroupEffect abilityeffecttype="OnAttack">
+        <Conditions>
+          <AbilityConditionAttackData weapontype="handheldranged" />
+          <AbilityConditionNearbyCharacterCount distance="1000" targettypes="Enemy" count="2" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityModifyAttackData addeddamagemultiplier="0.1" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AbilityGroupEffect abilityeffecttype="OnAttack">
+        <Conditions>
+          <AbilityConditionAttackData weapontype="handheldranged" />
+          <AbilityConditionNearbyCharacterCount distance="1000" targettypes="Enemy" count="3" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityModifyAttackData addeddamagemultiplier="0.1" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AbilityGroupEffect abilityeffecttype="OnAttack">
+        <Conditions>
+          <AbilityConditionAttackData weapontype="handheldranged" />
+          <AbilityConditionNearbyCharacterCount distance="1000" targettypes="Enemy" count="4" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityModifyAttackData addeddamagemultiplier="0.1" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AbilityGroupEffect abilityeffecttype="OnAttack">
+        <Conditions>
+          <AbilityConditionAttackData weapontype="handheldranged" />
+          <AbilityConditionNearbyCharacterCount distance="1000" targettypes="Enemy" count="5" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityModifyAttackData addeddamagemultiplier="0.1" />
+        </Abilities>
+      </AbilityGroupEffect>
+    </Talent>
+  </Override>
+</Talents>

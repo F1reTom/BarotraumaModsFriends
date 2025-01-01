@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Talent Additions" modversion="1.0.22" corepackage="False" steamworkshopid="3145987628" gameversion="1.4.6.0" expectedhash="2EFBC55F68F6D773280FAA1722FF88A2">
+  <Afflictions file="%ModDir%/Afflictions.xml" />
+  <Afflictions file="%ModDir%/Talents/Captain/AfflictionsCaptain.xml" />
+  <Character file="%ModDir%/Mechanic/Characters/Dementonitefeeder/Dementonitefeeder.xml" />
+  <Character file="%ModDir%/Mechanic/Characters/Scrapbot/Scrapbot.xml" />
+  <Character file="%ModDir%/Assistant/Characters/PAB/PAB.xml" />
+  <Character file="%ModDir%/Medic/Characters/Husky/Husky.xml" />
+  <Item file="%ModDir%/Items.xml" />
+  <Item file="%ModDir%/Captain/Items.xml" />
+  <Item file="%ModDir%/Security/Items.xml" />
+  <Item file="%ModDir%/Engineer/Items.xml" />
+  <Item file="%ModDir%/Mechanic/Items.xml" />
+  <Item file="%ModDir%/Medic/Items.xml" />
+  <Item file="%ModDir%/Assistant/Items.xml" />
+  <Item file="%ModDir%/CutContent/Items.xml" />
+  <Talents file="%ModDir%/Talents/Security/TalentsSecurity.xml" />
+  <Talents file="%ModDir%/Talents/Captain/TalentsCaptain.xml" />
+  <Talents file="%ModDir%/Talents/Doctor/TalentsDoctor.xml" />
+  <Talents file="%ModDir%/Talents/Engineer/TalentsEngineer.xml" />
+  <Talents file="%ModDir%/Talents/Mechanic/TalentsMechanic.xml" />
+  <Talents file="%ModDir%/Talents/Assistant/TalentsAssistant.xml" />
+  <TalentTrees file="%ModDir%/Talents/TalentTrees.xml" />
+  <Text file="%ModDir%/Localization/English.xml" />
+  <Text file="%ModDir%/Localization/Russian.xml" />
+</contentpackage>

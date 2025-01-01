@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character DisplayName="" SpeciesName="dementonitefeeder" SpeciesTranslationOverride="" Group="human" Humanoid="False" HasInfo="False" CanInteract="False" Husk="False" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="False" ShowHealthBar="True" UseBossHealthBar="False" Noise="100" Visibility="100" BloodDecal="" BleedParticleAir="blackblooddrop" BleedParticleWater="blackwaterblood" BleedParticleMultiplier="1" CanEat="False" EatingSpeed="10" UsePathFinding="False" PathFinderPriority="0.25" HideInSonar="True" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="10000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="0" DespawnContainer="">
+  <ragdolls folder="%ModDir%/Mechanic/Characters/Dementonitefeeder/Ragdolls/" />
+  <animations folder="%ModDir%/Mechanic/Characters/Dementonitefeeder/Animations/" />
+  <health Vitality="10" DoesBleed="True" CrushDepth="Infinity" UseHealthWindow="False" BleedingReduction="0" BurnReduction="0" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="0" StunImmunity="False" PoisonImmunity="False" PoisonVulnerability="3" EmpVulnerability="0" ApplyAfflictionColors="False" />
+  <damageemitter drawontop="True" Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="0.1" ScaleMax="0.3" VelocityMin="50" VelocityMax="300" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="5" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="blood" AngleMin="0" AngleMax="0" ScaleMin="0.5" ScaleMax="0.5" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="3" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <bloodemitter Particle="waterblood" AngleMin="0" AngleMax="0" ScaleMin="0.5" ScaleMax="0.5" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="1" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <gibemitter Particle="gib" AngleMin="0" AngleMax="360" ScaleMin="0.2" ScaleMax="0.4" VelocityMin="200" VelocityMax="500" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="5" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
+  <ai CombatStrength="20" Sight="0.5" Hearing="0.5" AggressionHurt="100" AggressionGreed="10" FleeHealthThreshold="0" AttackWhenProvoked="True" AvoidGunfire="False" DamageThreshold="0" AvoidTime="3" MinFleeTime="20" AggressiveBoarding="False" EnforceAggressiveBehaviorForMissions="False" TargetOuterWalls="True" RandomAttack="False" CanOpenDoors="False" UsePathFindingToGetInside="False" KeepDoorsClosed="False" AvoidAbyss="True" StayInAbyss="False" PatrolFlooded="False" PatrolDry="False" StartAggression="0" MaxAggression="100" AggressionCumulation="0" WallTargetingMethod="Target">
+    <target Tag="hostile" State="Aggressive" Priority="50" ReactDistance="1500" AttackDistance="1500" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="stronger" State="Aggressive" Priority="50" ReactDistance="1500" AttackDistance="1500" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="weaker" State="Aggressive" Priority="50" ReactDistance="1500" AttackDistance="1500" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="equal" State="Aggressive" Priority="50" ReactDistance="1500" AttackDistance="1500" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="True" IgnoreIncapacitated="True" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target Tag="owner" State="Protect" Priority="10" ReactDistance="150" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="True" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <SwarmBehavior mindistfromclosest="25" maxdistfromcenter="750" cohesion="1" />
+    <latchonto attachtocharacters="true" attachtosub="false" attachtowalls="false" mindeattachspeed="5.0" maxdeattachspeed="8.0" damageondetach="5" detachstun="5.0" attachlimb="Torso" localattachpos="0,0" offset="0" attachlimbrotation="0" weld="false" maxattachduration="10" cooldown="5" />
+  </ai>
+  <StatusEffect type="OnActive" target="this" Delay="8">
+    <Affliction identifier="internaldamage" strength="200" />
+  </StatusEffect>
+  <StatusEffect type="OnActive" target="this">
+    <Conditional IsLatched="False" />
+    <Sound file="Content/Characters/Swarmfeeder/SWARMENEMY_idle1Loop.ogg" loop="true" range="1000" volume="0.75" selectionmode="Random" />
+    <Sound file="Content/Characters/Swarmfeeder/SWARMENEMY_idle2Loop.ogg" loop="true" range="1000" volume="0.75" selectionmode="Random" />
+  </StatusEffect>
+  <StatusEffect type="OnActive" target="this">
+    <Conditional IsLatched="True" />
+    <Sound file="Content/Characters/Swarmfeeder/SWARMENEMY_Hit1Loop.ogg" loop="true" range="1000" selectionmode="Random" />
+    <Sound file="Content/Characters/Swarmfeeder/SWARMENEMY_Hit2Loop.ogg" loop="true" range="1000" selectionmode="Random" />
+  </StatusEffect>
+  <StatusEffect type="OnDeath" target="This">
+    <ParticleEmitter particle="blood" particleamount="2" scalemin="0.5" scalemax="0.5" velocitymin="0" velocitymax="0" anglemin="0" anglemax="360" />
+    <ParticleEmitter particle="waterblood" particleamount="2" scalemin="0.5" scalemax="0.5" velocitymin="0" velocitymax="0" />
+    <ParticleEmitter particle="waterblood" drawontop="true" particleamount="2" scalemin="0.5" scalemax="0.5" velocitymin="0" velocitymax="0" />
+    <ParticleEmitter particle="bubbles" particleamount="10" scalemin="0.5" scalemax="1" velocitymin="25" velocitymax="50" anglemin="0" anglemax="360" />
+    <ParticleEmitter particle="gib" particleamount="50" scalemin="0.3" scalemax="1" velocitymin="100" velocitymax="300" />
+    <sound file="Content/Characters/Swarmfeeder/SWARMENEMY_death1.ogg" range="1000" volume="1" selectionmode="Random" />
+    <sound file="Content/Characters/Swarmfeeder/SWARMENEMY_death2.ogg" range="1000" volume="1" selectionmode="Random" />
+    <sound file="Content/Characters/Swarmfeeder/SWARMENEMY_death3.ogg" range="1000" volume="1" selectionmode="Random" />
+    <sound file="Content/Characters/Swarmfeeder/SWARMENEMY_death4.ogg" range="1000" volume="1" selectionmode="Random" />
+  </StatusEffect>
+  <StatusEffect type="OnDeath" target="This" delay="0.2">
+    <RemoveCharacter />
+  </StatusEffect>
+</Character>

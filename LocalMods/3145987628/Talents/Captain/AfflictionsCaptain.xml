@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <Affliction identifier="clearhead" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" maxstrength="60" resetbetweenrounds="true" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect resistancefor="opiateaddiction,chemaddiction,psychosis" minresistance="0.0" maxresistance="0.25" minstrength="0" maxstrength="60" strengthchange="0" />
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="3,6" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction identifier="clearheadcaptain" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" maxstrength="60" resetbetweenrounds="true" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect resistancefor="opiateaddiction,chemaddiction,psychosis" minresistance="0.0" maxresistance="0.5" minstrength="0" maxstrength="60" strengthchange="0">
+      <StatValue stattype="SkillGainSpeed" value="1.0" />
+    </Effect>
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="3,6" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Rallying Cry" identifier="rallyingcrymedic" type="talentbuff" isbuff="true" limbspecific="false" showiconthreshold="1" showicontoothersthreshold="1" showinhealthscannerthreshold="1" treatmentthreshold="1000" maxstrength="30" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="30" strengthchange="-1" resistancefor="damage,bleeding,burn" minresistance="0.0" maxresistance="0.30" minspeedmultiplier="1.0" maxspeedmultiplier="1.3">
+      <StatValue stattype="SwimmingSpeed" minvalue="0" maxvalue="0.3" />
+    </Effect>
+    <icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sourcerect="640,768,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Rallying Cry" identifier="rallyingcrysecurity" type="talentbuff" isbuff="true" limbspecific="false" hideiconafterdelay="true" showiconthreshold="1" showicontoothersthreshold="1" showinhealthscannerthreshold="1" treatmentthreshold="1000" maxstrength="30" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="30" strengthchange="-1" resistancefor="damage,bleeding,burn" minresistance="0.0" maxresistance="0.30" minspeedmultiplier="1.0" maxspeedmultiplier="1.3">
+      <StatValue stattype="SwimmingSpeed" minvalue="0" maxvalue="0.3" />
+    </Effect>
+    <icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sourcerect="640,768,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Rallying Cry" identifier="rallyingcrycaptain" type="talentbuff" isbuff="true" limbspecific="false" hideiconafterdelay="true" showiconthreshold="1" showicontoothersthreshold="1" showinhealthscannerthreshold="1" treatmentthreshold="1000" maxstrength="30" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="30" strengthchange="-1" resistancefor="damage,bleeding,burn" minresistance="0.0" maxresistance="0.15" minspeedmultiplier="1.0" maxspeedmultiplier="1.1">
+      <StatValue stattype="SwimmingSpeed" minvalue="0" maxvalue="0.1" />
+      <StatValue stattype="RepairSpeed" minvalue="0" maxvalue="0.1" />
+    </Effect>
+    <icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sourcerect="640,768,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Rallying Cry" identifier="rallyingcryengineer" type="talentbuff" isbuff="true" limbspecific="false" hideiconafterdelay="true" showiconthreshold="1" showicontoothersthreshold="1" showinhealthscannerthreshold="1" treatmentthreshold="1000" maxstrength="30" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="30" strengthchange="-1" resistancefor="damage,bleeding,burn" minresistance="0.0" maxresistance="0.15">
+      <StatValue stattype="RepairSpeed" minvalue="0" maxvalue="0.2" />
+    </Effect>
+    <icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sourcerect="640,768,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Rallying Cry" identifier="rallyingcrymechanic" type="talentbuff" isbuff="true" limbspecific="false" hideiconafterdelay="true" showiconthreshold="1" showicontoothersthreshold="1" showinhealthscannerthreshold="1" treatmentthreshold="1000" maxstrength="30" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="30" strengthchange="-1" resistancefor="damage,bleeding,burn" minresistance="0.0" maxresistance="0.15">
+      <StatValue stattype="RepairSpeed" minvalue="0" maxvalue="0.2" />
+    </Effect>
+    <icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sourcerect="640,768,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Rallying Cry" identifier="rallyingcryassistant" type="talentbuff" isbuff="true" limbspecific="false" hideiconafterdelay="true" showiconthreshold="1" showicontoothersthreshold="1" showinhealthscannerthreshold="1" treatmentthreshold="1000" maxstrength="30" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="30" strengthchange="-1" resistancefor="damage,bleeding,burn" minresistance="0.0" maxresistance="0.15" minspeedmultiplier="1.0" maxspeedmultiplier="1.1">
+      <StatValue stattype="SwimmingSpeed" minvalue="0" maxvalue="0.1" />
+      <StatValue stattype="RepairSpeed" minvalue="0" maxvalue="0.1" />
+    </Effect>
+    <icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sourcerect="640,768,128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+</Afflictions>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+  <!-- Items -->
+  <entityname.sgar>СГАР</entityname.sgar>
+  <entitydescription.sgar>Автомат для стрельбы очередями под патроны калибра 5.56 мм. У него также есть подствольный дробовик для ближнего боя. Вы не найдете это оружие в продаже ни на одной станции Коалиции из-за угрозы, которую оно представляет для их охраны. У сепаратистов таких отговорок нет.</entitydescription.sgar>
+  <entityname.sgarmagazine>Магазин для СГАР</entityname.sgarmagazine>
+  <entitydescription.sgarmagazine>Магазин рассчитан на патроны калибра 5.56 мм.</entitydescription.sgarmagazine>
+  <entityname.sgarround>Патрон для СГАР</entityname.sgarround>
+  <entitydescription.sgarround>Магазин калибра 5.56 мм.</entitydescription.sgarround>
+  <entityname.scope>Оптический прицел</entityname.scope>
+  <entitydescription.scope>Оптический прицел с креплением для крепления к оружию.</entitydescription.scope>
+  <entityname.leech>Пиявка</entityname.leech>
+  <entitydescription.leech>Инопланетный кровососущий паразит, который вступает в симбиотические отношения с пользователем, высасывая кровь целей, которых он жалит, своими шипами, которую затем можно извлечь опытным ксенобиологом.</entitydescription.leech>
+  <entityname.leechbarb>Шип личинки</entityname.leechbarb>
+  <entitydescription.leechbarb>Зазубренный шип, сделанный из дементонита и органического вещества. Пиявка может запускать этот шип и пронзать жертву, чтобы высосать ее кровь.</entitydescription.leechbarb>
+  <entityname.medicdivingsuit>СЭМП</entityname.medicdivingsuit>
+  <entitydescription.medicdivingsuit>Скафандр для экстренной медицинской помощи, или сокращенно СЭМП представляет собой легкий костюм, который не сковывает движения пользователя, но обладает плохой защитой от физических травм. Встроенная компрессорная система кислородита позволяет постепенно наполнять кислородные баллоны, которые также можно быстро опустошить для увеличения скорости движения. Выдерживает давление на глубине до 6000 метров.</entitydescription.medicdivingsuit>
+  <entityname.dementoniteshell>Дементонитовый снаряд</entityname.dementoniteshell>
+  <entitydescription.dementoniteshell>Для стрельбы из рельсотрона. Раскалывается на многочисленных дементонитовых паразитов.</entitydescription.dementoniteshell>
+  <entityname.dementonitechargeshell>Дементонитовая глубинная бомба</entityname.dementonitechargeshell>
+  <entitydescription.dementonitechargeshell>Бочка со взрывчаткой. Потонет, а затем взорвется, выпустив на волю паразитов-дементонитов.</entitydescription.dementonitechargeshell>
+  <entityname.dementonitedecoyshell>Дементонитовая глубинная приманка</entityname.dementonitedecoyshell>
+  <entitydescription.dementonitedecoyshell>Приманка, которую можно сбросить при помощи системы запуска глубинных бомб. Спускается на глубину, излучая мощные звуковые сигналы, чтобы отвлечь внимание от подлодки и высвободить дементонитовых паразитов при ударе.</entitydescription.dementonitedecoyshell>
+  <entityname.flakcannonammoboxdementonite>Ящик дементонитовых шрапнельных снарядов</entityname.flakcannonammoboxdementonite>
+  <entitydescription.flakcannonammoboxdementonite>Тяжелый ящик с боеприпасами для шрапнельного орудия, снаряженный дементонитовыми снарядами. Кажется, что коробка вибрирует и трясется, как будто все, что находится внутри, хочет выйти наружу.</entitydescription.flakcannonammoboxdementonite>
+  <entityname.dementonitecoilgunammobox>Ящик дементонитовых снарядов</entityname.dementonitecoilgunammobox>
+  <entitydescription.dementonitecoilgunammobox>Боеприпасы для магнитной пушки изготовлены из живого инопланетного материала. Кажется, что коробка вибрирует и трясется, как будто все, что находится внутри, хочет выйти наружу.</entitydescription.dementonitecoilgunammobox>
+  <entityname.scrapbotspawner>Хламобот</entityname.scrapbotspawner>
+  <entitydescription.scrapbotspawner>Постройте голодную машину, которая превратит ваши металлы в хлам.</entitydescription.scrapbotspawner>
+  <entityname.radioactivematerial>Радиоактивный материал</entityname.radioactivematerial>
+  <entitydescription.radioactivematerial>Кучка радиоактивных металлов. Ее можно разобрать на уран.</entitydescription.radioactivematerial>
+  <entityname.fissilelauncher>Пусковая установка распада</entityname.fissilelauncher>
+  <entitydescription.fissilelauncher>Гораздо более грубый аналог «Быстрого ускорителя распада», пусковая установка распада была разработана кем-то, кому надоели лазеры и вместо этого он хотел взрывов. Невероятно опасно в чужих руках и совершенно незаконно.</entitydescription.fissilelauncher>
+  <entityname.radthrower>Радпылитель</entityname.radthrower>
+  <entitydescription.radthrower>Модифицированный огнемет, стреляющий струями радиоактивного аэрозоля, которые сжигают и облучают все на своем пути.</entitydescription.radthrower>
+  <entityname.radtank>Радиоактивный аэрозольный баллон</entityname.radtank>
+  <entitydescription.radtank>Баллон с радиоактивным аэрозолем для радпылителя.</entitydescription.radtank>
+  <entityname.pabspawner>Персональный бот-помощник</entityname.pabspawner>
+  <entitydescription.pabspawner>Создайте персональную машину-помощник, которая будет переносить ваши вещи и обеспечивать освещение.</entitydescription.pabspawner>
+  <entityname.medbackpack>Медпак</entityname.medbackpack>
+  <entitydescription.medbackpack>Легкий рюкзак, предназначенный для переноса большого количества мединструментов и лекарств без потери скорости передвижения пользователя.</entitydescription.medbackpack>
+  <entityname.endwormtrophy>Трофей Червя Рока</entityname.endwormtrophy>
+  <entitydescription.endwormtrophy>Трофей, сделанный из клыка Червя Рока.</entitydescription.endwormtrophy>
+  <entityname.charybdistrophy>Трофей Харибды</entityname.charybdistrophy>
+  <entitydescription.charybdistrophy>Трофей, сделанный из челюсти Харибды.</entitydescription.charybdistrophy>
+  <entityname.latchertrophy>Трофей Блокиратора</entityname.latchertrophy>
+  <entitydescription.latchertrophy>Трофей, сделанный из глаза Блокиратора, насаженного на собственный зуб.</entitydescription.latchertrophy>
+  <entityname.joviangrail>Юпитерианская грааль</entityname.joviangrail>
+  <entitydescription.joviangrail>Странный инопланетный артефакт, имеющий огромное значение. Он превращает воду в этанол. Его также можно использовать как импровизированное оружие ближнего боя.</entitydescription.joviangrail>
+  <entityname.oldsailorswallet>Старый матросский кошелек</entityname.oldsailorswallet>
+  <entitydescription.oldsailorswallet>Старый матросский кошелек. Можно обменять на несколько несколько кредитов на станции.</entitydescription.oldsailorswallet>
+  <entityname.mk1securitygear>Защитное снаряжение Mk1</entityname.mk1securitygear>
+  <entitydescription.mk1securitygear>Комплект отремонтированного охранного снаряжения Mk1, обеспечивающего повышенную защиту. Эта конструкция была заменена более дешевой и простой в массовом производстве альтернативой.</entitydescription.mk1securitygear>
+  <entityname.mk1securityhelmet>Защитный шлем Mk1</entityname.mk1securityhelmet>
+  <entitydescription.mk1securityhelmet>Обновленный защитный шлем Mk1, обеспечивающий повышенную защиту по сравнению с другими баллистическими шлемами. Эта конструкция была заменена более дешевой и простой в массовом производстве альтернативой.</entitydescription.mk1securityhelmet>
+  <entityname.allinonehelmet>Шлем «Все-в-одном»</entityname.allinonehelmet>
+  <entitydescription.allinonehelmet>Гениальное изобретение, сочетающее в себе сканер здоровья, тепловизор, очки электрика, железный шлем и курительную трубку, украшенную клоунским гримом.</entitydescription.allinonehelmet>
+  <entityname.mk1thermalhelmet>Шлем повышенной безопасности Mk1</entityname.mk1thermalhelmet>
+  <entitydescription.mk1thermalhelmet>Усовершенствованный тепловой шлем Mk1, сочетающий в себе сканер здоровья, тепловизор и очки электрика.</entitydescription.mk1thermalhelmet>
+  <entityname.fulguriumrevolverround>Грозовиевый патрон револьвера</entityname.fulguriumrevolverround>
+  <entitydescription.fulguriumrevolverround>Револьверный патрон .38 калибра с грозиевым сердечником. Несмотря на то, что он имеет пониженный физический урон, он имеет гораздо более высокий урон от оглушения и ЭМИ.</entitydescription.fulguriumrevolverround>
+  <entityname.fulguriumsmgmagazine>Грозовиевый магазин для ПП</entityname.fulguriumsmgmagazine>
+  <entitydescription.fulguriumsmgmagazine>Магазин для патронов .45 калибра c грозиевым сердечником. Несмотря на то, что он имеет пониженный физический урон, он имеет гораздо более высокий урон от оглушения и ЭМИ.</entitydescription.fulguriumsmgmagazine>
+  <entityname.fulguriumsmground>Fulgurium SMG Round</entityname.fulguriumsmground>
+  <entitydescription.fulguriumsmground>A .45 caliber fulgurium submachine gun round. While it has lower limb severance and physical damage, it has much higher stun and EMP damage.</entitydescription.fulguriumsmground>
+  <entityname.fulguriumriflebullet>Грозовиевый патрон для ружья</entityname.fulguriumriflebullet>
+  <entitydescription.fulguriumriflebullet>Патрон для ружья калибра .30 с грозиевым сердечником. Несмотря на то, что он имеет пониженный физический урон, он имеет гораздо более высокий урон от оглушения и ЭМИ.</entitydescription.fulguriumriflebullet>
+  <entityname.fulguriumshotgunshell>Грозовиевый патрон для дробовика</entityname.fulguriumshotgunshell>
+  <entitydescription.fulguriumshotgunshell>Патрон для дробовика с грозиевым сердечником. Несмотря на то, что он имеет отрубание нижних конечностей и физический урон, он имеет гораздо более высокий урон от оглушения и ЭМИ.</entitydescription.fulguriumshotgunshell>
+  <entityname.incendiaryrevolverround>Воспламенитовый патрон револьвера</entityname.incendiaryrevolverround>
+  <entitydescription.incendiaryrevolverround>Револьверный патрон .38 калибра с воспламенитовым сердечником. Несмотря на меньший физический урон, он имеет более высокую пробиваемость и урон от ожогов.</entitydescription.incendiaryrevolverround>
+  <entityname.incendiarysmgmagazine>Воспламенитовый магазин для ПП</entityname.incendiarysmgmagazine>
+  <entitydescription.incendiarysmgmagazine>Магазин для патронов .45 калибра c воспламенитовым сердечником. Несмотря на меньший физический урон, он имеет более высокую пробиваемость и урон от ожогов.</entitydescription.incendiarysmgmagazine>
+  <entityname.incendiarysmground>Incendiary SMG Round</entityname.incendiarysmground>
+  <entitydescription.incendiarysmground>A .45 caliber incendium submachine gun round. While it has lower physical damage, it has higher penetration and burn damage.</entitydescription.incendiarysmground>
+  <entityname.incendiaryriflebullet>Воспламенитовый патрон для ружья</entityname.incendiaryriflebullet>
+  <entitydescription.incendiaryriflebullet>Патрон для ружья калибра .30 с грозиевым сердечником. Несмотря на меньший физический урон, он имеет более высокую пробиваемость и урон от ожогов.</entitydescription.incendiaryriflebullet>
+  <entityname.incendiaryshotgunshell>Воспламенитовый патрон для дробовика</entityname.incendiaryshotgunshell>
+  <entitydescription.incendiaryshotgunshell>Воспламенитовый патрон для дробовика. Несмотря на меньший физический урон, он имеет более высокую пробиваемость и урон от ожогов.</entitydescription.incendiaryshotgunshell>
+  <entityname.tadementoniteweldingtool>Дементонитовый сварочный аппарат</entityname.tadementoniteweldingtool>
+  <entitydescription.tadementoniteweldingtool>Сварочный аппарат, который чинит корпус при помощи дементонитовых нанороботов, которые сплавляются с металлом. Эффективнее чем стандартный сварочный инструмент. Требуются дементонитовые топливные баки.</entitydescription.tadementoniteweldingtool>
+  <entityname.tadementonitetank>Дементонитовый топливный бак</entityname.tadementonitetank>
+  <entitydescription.tadementonitetank>Топливный бак для дементонитового сварочного аппарата</entitydescription.tadementonitetank>
+  <entityname.scrapmachinepistol>Хламоствол</entityname.scrapmachinepistol>
+  <entitydescription.scrapmachinepistol>Пистолет-пулемет, который измельчает металл на дробинки и стреляет ими быстро, но неточно.</entitydescription.scrapmachinepistol>
+  <entityname.ironpellet>Iron Pellet</entityname.ironpellet>
+  <entityname.scrappellet>Scrap Pellet</entityname.scrappellet>
+  <entityname.steelpellet>Steel Pellet</entityname.steelpellet>
+  <entityname.ironbuckshot>Iron buckshot</entityname.ironbuckshot>
+  <entityname.scrapbuckshot>Scrap buckshot</entityname.scrapbuckshot>
+  <entityname.steelbuckshot>Steel buckshot</entityname.steelbuckshot>
+  <entityname.depletedfuelprojectile>Depleted Fuel Projectile</entityname.depletedfuelprojectile>
+  <entityname.fuelrodprojectile>Fuel Rod Projectile</entityname.fuelrodprojectile>
+  <entityname.thoriumfuelrodprojectile>Thorium Fuel Rod Projectile</entityname.thoriumfuelrodprojectile>
+  <entityname.fulguriumfuelrodprojectile>Fulgurium Fuel Rod Projectile</entityname.fulguriumfuelrodprojectile>
+  <entityname.fulguriumvolatilefuelrodprojectile>Volatile Fulgurium Fuel Rod Projectile</entityname.fulguriumvolatilefuelrodprojectile>
+  <entityname.riflebulletdepletedfuel>Патрон для ружья с обедненным топливом</entityname.riflebulletdepletedfuel>
+  <entitydescription.riflebulletdepletedfuel>Патрон для ружья калибра .30 с обедненным топливом. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.riflebulletdepletedfuel>
+  <entityname.shotgunshelldepletedfuel>Патрон для дробовика с обедненным топливом</entityname.shotgunshelldepletedfuel>
+  <entitydescription.shotgunshelldepletedfuel>Патрон для дробовика с обедненным топливом. Эти боеприпасы отличаются большой пробивной силой и вызывают радиационное поражение цели.</entitydescription.shotgunshelldepletedfuel>
+  <entityname.flooder>Наводнитель</entityname.flooder>
+  <entitydescription.flooder>Благодаря равной степени инопланетных технологий и магии красного носа, этот «огнемет» больше похож на «наводнитель».</entitydescription.flooder>
+  <entityname.alienwatercell>Инопланетный водяной аккумулятор</entityname.alienwatercell>
+  <entitydescription.alienwatercell>Какой-то странный инопланетный компонент, который, кажется, производит бесконечное количество воды. Неудивительно, что Европа — это океан.</entitydescription.alienwatercell>
+  <entityname.clownbooster>Клоунские ракетные ботинки</entityname.clownbooster>
+  <entitydescription.clownbooster>Заставляет идти быстрее, подвергая себя большому риску, когда нужно быстро скрыться с места преступления. Требуется сварочное топливо. Используйте с осторожностью.</entitydescription.clownbooster>
+  <entityname.clownvisor>Клоуновизор</entityname.clownvisor>
+  <entitydescription.clownvisor>Странная маска клоуна с какими-то электрическими компонентами внутри. Глядя на нее, становится смешно, но и грустно одновременно.</entitydescription.clownvisor>
+  <entityname.zaphorn>Электрический гудок</entityname.zaphorn>
+  <entitydescription.zaphorn>Этот велосипедный гудок имеет ударно-спусковой механизм и достаточно места для одного электрошокового дротика. Вы можете застать врасплох, отвлечь и оглушить нападавшего на время, достаточное для того, чтобы скрыться.</entitydescription.zaphorn>
+  <entityname.smallhuskyegg>Генетически модифицированное яйцо ползуна</entityname.smallhuskyegg>
+  <entitydescription.smallhuskyegg>В это яйцо ввели человеческую кровь и поместили в водолазный костюм, как описано в заметках. Теперь пришло время добавить экстракт каликса.</entitydescription.smallhuskyegg>
+  <entityname.huskyegg>Мутировавшее яйцо ползуна хаска</entityname.huskyegg>
+  <entitydescription.huskyegg>Яйцо выросло и охватило скафандр, в котором оно изначально находилось. Доза анаболических стероидов должна ослабить иммунную систему и позволить хаску укрепиться. Что бы ни получилось, это будет научное чудо.</entitydescription.huskyegg>
+  <entityname.coffeebean>Кофейное зерно</entityname.coffeebean>
+  <entitydescription.coffeebean>Кофейный боб, который можно посадить, чтобы выращивать кофейное растение или превратить в мешок кофейных зерен, чтобы сделать кружку кофе</entitydescription.coffeebean>
+  <entityname.coffeeplantpod>Гроздь кофейных ягод</entityname.coffeeplantpod>
+  <entitydescription.coffeeplantpod>Гроздь кофейных ягод, которые можно измельчить в деконструкторе для их получения их зерен.</entitydescription.coffeeplantpod>
+  <entityname.coffeebag>Мешок с кофе</entityname.coffeebag>
+  <entitydescription.coffeebag>Мешок кофейных зерен, которые можно заваривать в свежий кофе.</entitydescription.coffeebag>
+  <entityname.emptymug>Пустая кружка</entityname.emptymug>
+  <entitydescription.emptymug>Пустая керамическая кружка, ожидающая вкусного напитка.</entitydescription.emptymug>
+  <entityname.coffeemug>Кружка кофе</entityname.coffeemug>
+  <entitydescription.coffeemug>Керамическая кружка, наполненная горячим кофе. Это взбодрит любого моряка и даст им энергию на оставшийся день.</entitydescription.coffeemug>
+  <entityname.captainsblendbag>Перемолотый кофе капитана</entityname.captainsblendbag>
+  <entitydescription.captainsblendbag>Мешок перемолотого кофе. Старый рецепт передающийся от капитана к капитану, две части кофе и одна часть табак.</entitydescription.captainsblendbag>
+  <entityname.captainsmug>Кружка капитана</entityname.captainsmug>
+  <entitydescription.captainsmug>Керамическая кружка, наполненная фирменным капитанским кофе. Гарантированный эффект протрезвления и повышенной энергичности - все что нужно капитану, чтобы очистить голову.</entitydescription.captainsmug>
+  <!-- Talent trees -->
+  <talenttree.playingwithgeiger>Наследие Гейгера</talenttree.playingwithgeiger>
+  <talenttree.ticktickboom>Тик-так... БУМ!</talenttree.ticktickboom>
+  <talenttree.swarmageddon>Нашествие роя</talenttree.swarmageddon>
+  <talenttree.garbagedisposal>Вывоз мусора</talenttree.garbagedisposal>
+  <talenttree.frontlineaid>Передовая помощь</talenttree.frontlineaid>
+  <talenttree.battlemedic>Боевой медик</talenttree.battlemedic>
+  <talenttree.treasurehunter>Охотник за сокровищами</talenttree.treasurehunter>
+  <talenttree.trophyhunter>Охотник за трофеями</talenttree.trophyhunter>
+  <talenttree.shockvalue>Шок-контент</talenttree.shockvalue>
+  <talenttree.firingsquad>Огневая поддержка</talenttree.firingsquad>
+  <talenttree.scrapnado>Хламотопия</talenttree.scrapnado>
+  <talenttree.nanobots>Нанороботы</talenttree.nanobots>
+  <talenttree.bigtopspeed>Превышение скорости</talenttree.bigtopspeed>
+  <talenttree.collaborativeproject>Совместный проект</talenttree.collaborativeproject>
+  <talenttree.operator>Скорострел</talenttree.operator>
+  <talenttree.duelist>Дуэлист</talenttree.duelist>
+  <talenttree.wakeupcall>Пробуждение</talenttree.wakeupcall>
+  <!-- Talents -->
+  <talentname.playingwithgeiger>Наследие Гейгера</talentname.playingwithgeiger>
+  <talentdescription.playingwithgeiger>Радиационная болезнь постепенно лечит вас.</talentdescription.playingwithgeiger>
+  <talentname.ticktickboom>Тик-так... БУМ!</talentname.ticktickboom>
+  <talentname.swarmageddon>Нашествие роя</talentname.swarmageddon>
+  <talentname.garbagedisposal>Вывоз мусора</talentname.garbagedisposal>
+  <talentdescription.garbagedisposal>Создайте безобидный дрон, который превращает металлы в хлам.</talentdescription.garbagedisposal>
+  <talentname.frontlineaid>Передовая помощь</talentname.frontlineaid>
+  <talentdescription.frontlineaid>Более эффективное применение пакетов с кровью</talentdescription.frontlineaid>
+  <talentname.battlemedic>Боевой медик</talentname.battlemedic>
+  <talentdescription.battlemedic>Медицинские предметы эффективнее на [amount]% за каждого врага неподалеку до [maxamount]%. \nДает дополнительно [skillname] равный [skillpercentage]% от навыка [skill].</talentdescription.battlemedic>
+  <talentname.treasurehunter>Охотник за сокровищами</talentname.treasurehunter>
+  <talentdescription.treasurehunter>Получите на [amount]% больше опыта и денег за выполнение миссии по добыче. \nВпервые открыв контейнер в обломках, сесть [probability]% шанс найти ‖color:gui.orange‖Старый матросский кошелек‖end‖ который можно продать. \nУ вас также есть редкий шанс найти ‖color:gui.orange‖Юпитерианскую грааль‖end‖.</talentdescription.treasurehunter>
+  <talentname.trophyhunter>Охотник за трофеями</talentname.trophyhunter>
+  <talentdescription.trophyhunter>Из останков монстров бездны вы найдете ‖color:gui.orange‖Копье Ахава‖end‖ и ‖color:gui.orange‖Трофей‖end‖ который можно повесить на стену или продать.</talentdescription.trophyhunter>
+  <talentdescription.trophyhunterharpoon>Ваши атаки гарпуном на [value]% более эффективны.</talentdescription.trophyhunterharpoon>
+  <talentdescription.trophyhunterknife>Ваши атаки ножом на [value]% более эффективны.</talentdescription.trophyhunterknife>
+  <talentname.shockvalue>Шок-контент</talentname.shockvalue>
+  <talentname.firingsquad>Огневая поддержка</talentname.firingsquad>
+  <talentname.scrapnado>Хламотопия</talentname.scrapnado>
+  <talentdescription.scrapnado>Увеличивает урон [itemname] на [amount]%.</talentdescription.scrapnado>
+  <talentdescription.ironstormscrapbuff>Увеличивает урон [itemname] на [amount]%.</talentdescription.ironstormscrapbuff>
+  <talentname.nanobots>Нанороботы</talentname.nanobots>
+  <talentdescription.disloyalscumknife>Увеличивает урон ножа по людям на [amount]%.</talentdescription.disloyalscumknife>
+  <talentname.bigtopspeed>Превышение скорости</talentname.bigtopspeed>
+  <talentname.collaborativeproject>Совместный проект</talentname.collaborativeproject>
+  <talentdescription.collaborativeproject>Получите усиление на [amount] для каждого навыка, а также бонус на [amount]% к [stattype1], [stattype2] и ‖color:gui.orange‖урона (не из орудий)‖концу‖. \nТакже вы получаете [amount]% сопротивления [affliction1] и [affliction2].</talentdescription.collaborativeproject>
+  <talentname.operator>Скорострел</talentname.operator>
+  <talentdescription.loyalassistantdrone>Создайте безобидный дрон, который будет перевозить предметы и обеспечивать освещение.</talentdescription.loyalassistantdrone>
+  <talentname.duelist>Дуэлист</talentname.duelist>
+  <talentdescription.duelist>При стрельбе накладывает на цель ‖color:gui.orange‖Метку смерти‖end‖ которая увеличивает урон от огнестрельного повреждения на [bonus]%.</talentdescription.duelist>
+  <talentname.wakeupcall>Пробуждение</talentname.wakeupcall>
+  <talentdescription.wakeupcall>При применении [itemname], получите [amount1]% [stattype], а также [amount2]% сопротивления к ‖color:gui.orange‖Психозу, Наркотической зависимости и Наркотической ломки‖end‖ до конца миссии.</talentdescription.wakeupcall>
+  <talentname.rallyingcry>Призыв к сплочению</talentname.rallyingcry>
+  <talentdescription.rallyingcry>Ваша команда получает разные бонусы, если кто-то из членов экипажа без сознания, или подлодка затоплена на [flooded]%: \nЕсли подлодка затоплена или член команды без сознания, ‖color:gui.orange‖Капитан‖end‖ и ‖color:gui.orange‖Помощник‖end‖ получают [movementspeed]% к скорости передвижения, [repairspeed]% к скорости ремонта [amount]% к сопротивлению урону.</talentdescription.rallyingcry>
+  <talentdescription.rallyingcryrepair>Если подлодка затоплена, ‖color:gui.orange‖Инженер‖end‖ и ‖color:gui.orange‖Механик‖end‖ ремонтируют на [repairspeed]% быстрее, а также получают [amount]% к сопротивлению урону.</talentdescription.rallyingcryrepair>
+  <talentdescription.rallyingcryspeed>Если кто-то из членов экипажа без сознания, ‖color:gui.orange‖Офицер охраны‖end‖ и ‖color:gui.orange‖Врач‖end‖ получают [movementspeed]% к скорости передвижения, а также [amount]% к сопротивлению урону.</talentdescription.rallyingcryspeed>
+  <!-- Afflictions -->
+  <afflictionname.leechdrained>Пиявка Осушение</afflictionname.leechdrained>
+  <afflictiondescription.drained>Это существо недавно было обескровлено инопланетным паразитом.</afflictiondescription.drained>
+  <afflictionname.markedfordeath>Метка смерти</afflictionname.markedfordeath>
+  <afflictiondescription.markedfordeath>Кто-то хочет вас убить</afflictiondescription.markedfordeath>
+  <afflictionname.rallyingcrymedic>Призыв к сплочению</afflictionname.rallyingcrymedic>
+  <afflictiondescription.rallyingcrymedic>Капитан приказал команде сплотиться во время чрезвычайной ситуации.</afflictiondescription.rallyingcrymedic>
+  <afflictionname.rallyingcrysecurity>Призыв к сплочению</afflictionname.rallyingcrysecurity>
+  <afflictiondescription.rallyingcrysecurity>Капитан приказал команде сплотиться во время чрезвычайной ситуации.</afflictiondescription.rallyingcrysecurity>
+  <afflictionname.rallyingcryengineer>Призыв к сплочению</afflictionname.rallyingcryengineer>
+  <afflictiondescription.rallyingcryengineer>Капитан приказал команде сплотиться во время чрезвычайной ситуации.</afflictiondescription.rallyingcryengineer>
+  <afflictionname.rallyingcrymechanic>Призыв к сплочению</afflictionname.rallyingcrymechanic>
+  <afflictiondescription.rallyingcrymechanic>Капитан приказал команде сплотиться во время чрезвычайной ситуации.</afflictiondescription.rallyingcrymechanic>
+  <afflictionname.rallyingcryassistant>RПризыв к сплочению</afflictionname.rallyingcryassistant>
+  <afflictiondescription.rallyingcryassistant>Капитан приказал команде сплотиться во время чрезвычайной ситуации.</afflictiondescription.rallyingcryassistant>
+  <afflictionname.rallyingcrycaptain>Призыв к сплочению</afflictionname.rallyingcrycaptain>
+  <afflictiondescription.rallyingcrycaptain>Вы приказали команде сплотиться во время чрезвычайной ситуации.</afflictiondescription.rallyingcrycaptain>
+  <afflictionname.clearhead>Ясный рассудок</afflictionname.clearhead>
+  <afflictiondescription.clearhead>Вы чувствуете сосредоточенность и устойчивость к психозу, опиатной и химической зависимости.</afflictiondescription.clearhead>
+  <afflictionname.clearheadcaptain>Ясный рассудок</afflictionname.clearheadcaptain>
+  <afflictiondescription.clearheadcaptain>Вы чувствуете себя особенно сосредоточенным, готовым выполнять работу и устойчивым к психозу, опиатной и химической зависимости.</afflictiondescription.clearheadcaptain>
+</infotexts>

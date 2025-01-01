@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="playingwithgeiger">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="0,0" sheetelementsize="128,128" />
+    <Description tag="talentdescription.playingwithgeiger" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.radioactivematerial" color="gui.orange" />
+    </Description>
+    <AbilityGroupInterval interval="1.0">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="radiationsickness" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+              <ReduceAffliction identifier="bleeding" strength="0.1" />
+              <ReduceAffliction identifier="damage" strength="0.25" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AddedRecipe itemidentifier="radioactivematerial" />
+  </Talent>
+  <Talent identifier="ticktickboom">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="1,0" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.fissilelauncher,entityname.radthrower,entityname.radtank" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="fissilelauncher" />
+    <AddedRecipe itemidentifier="radthrower" />
+    <AddedRecipe itemidentifier="radtank" />
+  </Talent>
+  <Talent identifier="shockvalue">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="7,0" sheetelementsize="128,128" />
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.fulguriumsmgmagazine,entityname.fulguriumrevolverround,entityname.fulguriumriflebullet,entityname.fulguriumshotgunshell" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="fulguriumsmgmagazine" />
+    <AddedRecipe itemidentifier="fulguriumrevolverround" />
+    <AddedRecipe itemidentifier="fulguriumriflebullet" />
+    <AddedRecipe itemidentifier="fulguriumshotgunshell" />
+  </Talent>
+  <Override>
+    <Talent identifier="armsrace">
+      <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="4,7" sheetelementsize="128,128" />
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.smgmagazinedepletedfuel,entityname.revolverrounddepletedfuel,entityname.riflebulletdepletedfuel,entityname.shotgunshelldepletedfuel" color="gui.orange" />
+      </Description>
+      <AddedRecipe itemidentifier="smgmagazinedepletedfuel" />
+      <AddedRecipe itemidentifier="revolverrounddepletedfuel" />
+      <AddedRecipe itemidentifier="riflebulletdepletedfuel" />
+      <AddedRecipe itemidentifier="shotgunshelldepletedfuel" />
+    </Talent>
+  </Override>
+</Talents>

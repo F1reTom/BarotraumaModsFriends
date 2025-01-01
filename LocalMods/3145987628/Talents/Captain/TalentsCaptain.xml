@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="trophyhunter">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="4,0" sheetelementsize="128,128" />
+    <Description tag="talentdescription.trophyhunter" />
+    <Description tag="talentdescription.trophyhunterharpoon">
+      <Replace tag="[value]" value="30" color="gui.green" />
+    </Description>
+    <Description tag="talentdescription.trophyhunterknife">
+      <Replace tag="[value]" value="100" color="gui.green" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="OnLootCharacter">
+      <Conditions>
+        <AbilityConditionCharacter targettype="Monster">
+          <Conditional SpeciesName="eq Endworm" />
+        </AbilityConditionCharacter>
+        <AbilityConditionCharacterNotLooted identifier="trophyhunter" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="UseTarget">
+              <SpawnItem identifiers="endwormtrophy" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnLootCharacter">
+      <Conditions>
+        <AbilityConditionCharacter targettype="Monster">
+          <Conditional SpeciesName="eq charybdis" />
+        </AbilityConditionCharacter>
+        <AbilityConditionCharacterNotLooted identifier="trophyhunter" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="UseTarget">
+              <SpawnItem identifiers="charybdistrophy" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnLootCharacter">
+      <Conditions>
+        <AbilityConditionCharacter targettype="Monster">
+          <Conditional SpeciesName="eq Latcher" />
+        </AbilityConditionCharacter>
+        <AbilityConditionCharacterNotLooted identifier="trophyhunter" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="UseTarget">
+              <SpawnItem identifiers="latchertrophy" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+              <SpawnItem identifiers="spearunique" spawnposition="ThisInventory" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnLootCharacter">
+      <Conditions>
+        <AbilityConditionCharacter targettype="Monster" />
+        <AbilityConditionCharacterNotLooted identifier="trophyhunter" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityMarkAsLooted identifier="trophyhunter" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="harpoonammo" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.3" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="sharptool" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="1" />
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent>
+  <Talent identifier="treasurehunter">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="5,0" sheetelementsize="128,128" />
+    <Description tag="talentdescription.treasurehunter">
+      <Replace tag="[amount]" value="30" color="gui.green" />
+      <Replace tag="[missiontype]" value="missiontype.salvage" color="gui.orange" />
+      <Replace tag="[probability]" value="10" color="gui.green" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="OnGainMissionMoney">
+      <Conditions>
+        <AbilityConditionMission missiontype="Salvage" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyValue multiplyvalue="1.30" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnGainMissionExperience">
+      <Conditions>
+        <AbilityConditionMission missiontype="Salvage" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyValue multiplyvalue="1.30" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnOpenItemContainer">
+      <Conditions>
+        <AbilityConditionItemInSubmarine submarinetype="Wreck" />
+        <AbilityConditionItem tags="container" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilitySpawnItemsToContainer randomchance="0.1" oncepercontainer="true">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="UseTarget">
+              <SpawnItem identifiers="oldsailorswallet" spawnposition="ThisInventory" spawnifcantbecontained="false" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilitySpawnItemsToContainer>
+      </Abilities>
+      <Abilities>
+        <CharacterAbilitySpawnItemsToContainer randomchance="0.01" oncepercontainer="true">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="UseTarget">
+              <SpawnItem identifiers="joviangrail" spawnposition="ThisInventory" spawnifcantbecontained="false" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilitySpawnItemsToContainer>
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent>
+  <Talent identifier="duelist">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="0,2" sheetelementsize="128,128" />
+    <Description tag="talentdescription.duelist">
+      <Replace tag="[bonus]" value="20" color="gui.green" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData weapontype="handheldranged" />
+        <AbilityConditionCharacter targettypes="Enemy,Monster" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="UseTarget">
+              <Affliction identifier="markedfordeath" strength="20" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent>
+  <Talent identifier="wakeupcall">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="7,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.wakeupcall">
+      <Replace tag="[itemname]" value="entityname.captainsmug" color="gui.orange" />
+      <Replace tag="[amount1]" value="100" color="gui.green" />
+      <Replace tag="[stattype]" value="stattypenames.skillgainspeed" color="gui.orange" />
+      <Replace tag="[amount2]" value="25" color="gui.green" />
+    </Description>
+    <Description tag="talentdescription.unlockrecipe">
+      <Replace tag="[itemname]" value="entityname.captainsblendbag,entityname.captainsmug" color="gui.orange" />
+    </Description>
+    <AbilityGroupInterval interval="1.0">
+      <Abilities>
+        <CharacterAbilityReplaceAffliction affliction="clearhead" newaffliction="clearheadcaptain" />
+      </Abilities>
+    </AbilityGroupInterval>
+    <AddedRecipe itemidentifier="captainsblendbag" />
+    <AddedRecipe itemidentifier="captainsmug" />
+  </Talent>
+  <Talent identifier="rallyingcry">
+    <Icon texture="%ModDir%/Talents/TalentsIconsAdd.png" sheetindex="1,2" sheetelementsize="128,128" />
+    <Description tag="talentdescription.rallyingcry">
+      <Replace tag="[flooded]" value="50" color="gui.green" />
+      <Replace tag="[movementspeed]" value="10" color="gui.green" />
+      <Replace tag="[repairspeed]" value="10" color="gui.green" />
+      <Replace tag="[amount]" value="15" color="gui.green" />
+    </Description>
+    <Description tag="talentdescription.rallyingcryrepair">
+      <Replace tag="[repairspeed]" value="20" color="gui.green" />
+      <Replace tag="[amount]" value="15" color="gui.green" />
+    </Description>
+    <Description tag="talentdescription.rallyingcryspeed">
+      <Replace tag="[movementspeed]" value="30" color="gui.green" />
+      <Replace tag="[amount]" value="15" color="gui.green" />
+    </Description>
+    <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionCrewMemberUnconscious />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="rallyingcrycaptain" amount="30.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+        <CharacterAbilityApplyStatusEffectsToAllies allowself="false" jobs="assistant">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="rallyingcryassistant" amount="30.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffectsToAllies>
+        <CharacterAbilityApplyStatusEffectsToAllies allowself="false" jobs="medicaldoctor">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="rallyingcrymedic" amount="30.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffectsToAllies>
+        <CharacterAbilityApplyStatusEffectsToAllies allowself="false" jobs="security">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="rallyingcrysecurity" amount="30.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffectsToAllies>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval interval="1">
+      <Conditions>
+        <AbilityConditionShipFlooded floodpercentage="0.5" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="rallyingcrycaptain" amount="30.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+        <CharacterAbilityApplyStatusEffectsToAllies allowself="false" jobs="assistant">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="rallyingcryassistant" amount="30.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffectsToAllies>
+        <CharacterAbilityApplyStatusEffectsToAllies allowself="false" jobs="engineer">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="rallyingcryengineer" amount="30.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffectsToAllies>
+        <CharacterAbilityApplyStatusEffectsToAllies allowself="false" jobs="mechanic">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="rallyingcrymechanic" amount="30.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffectsToAllies>
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+</Talents>

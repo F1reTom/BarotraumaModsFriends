@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <!-- Items -->
+  <entityname.sgar>SGAR</entityname.sgar>
+  <entitydescription.sgar>A burst-fire assault rifle chambering 5.56mm cartridges. It also has an underbarrel-mounted shotgun for close encounters. You won't find this weapon sold at any Coalition stations because of the threat it poses to their guard. The Seperatists have no such reservations.</entitydescription.sgar>
+  <entityname.sgarmagazine>SGAR Magazine</entityname.sgarmagazine>
+  <entitydescription.sgarmagazine>A magazine designed for holding 5.56 cartridges.</entitydescription.sgarmagazine>
+  <entityname.sgarround>SGAR Bullet</entityname.sgarround>
+  <entitydescription.sgarround>A 5.56 cartridges.</entitydescription.sgarround>
+  <entityname.scope>Scope</entityname.scope>
+  <entitydescription.scope>A scope with a mount to attach to a gun.</entitydescription.scope>
+  <entityname.leech>Leech</entityname.leech>
+  <entitydescription.leech>An alien blood sucking parasite that forms a symbiotic relationship with the user, sucking the blood of targets it stings with its barbs which can then be extracted by a skilled xenobiologist.</entitydescription.leech>
+  <entityname.leechbarb>Leech Barb</entityname.leechbarb>
+  <entitydescription.leechbarb>A serrated barb made of dementonite and organic matter. A Leech can launch this barb and spear victims to suck their blood.</entitydescription.leechbarb>
+  <entityname.medicdivingsuit>MEDS</entityname.medicdivingsuit>
+  <entitydescription.medicdivingsuit>The Medical Emergency Diving Suit, or MEDS for short, is a lightweight suit that does not inhibit movement of the wearer but offers little in the way of protection from physical trauma. The built-in oxygenite compressor system allows for the gradual refilling of oxygen tanks which can also be quickly emptied for a burst of propulsion. Withstands pressure up to a depth of 6,000 meters.</entitydescription.medicdivingsuit>
+  <entityname.dementoniteshell>Dementonite Shell</entityname.dementoniteshell>
+  <entitydescription.dementoniteshell>For firing from a railgun. Splinters into numerous dementonite parasites.</entitydescription.dementoniteshell>
+  <entityname.dementonitechargeshell>Dementonite Depth Charge</entityname.dementonitechargeshell>
+  <entitydescription.dementonitechargeshell>A barrel of explosives. Will sink and then explode, unleashing dementonite parasites.</entitydescription.dementonitechargeshell>
+  <entityname.dementonitedecoyshell>Dementonite Decoy Shell</entityname.dementonitedecoyshell>
+  <entitydescription.dementonitedecoyshell>A decoy that can be deployed via the depth charge launcher. Will sink while producing a loud acoustic signal to attract attention away from the sub and unleash dementonite parasites on impact.</entitydescription.dementonitedecoyshell>
+  <entityname.flakcannonammoboxdementonite>Dementonite Flak Shell Box</entityname.flakcannonammoboxdementonite>
+  <entitydescription.flakcannonammoboxdementonite>A heavy box of ammo for the flak cannon, loaded with dementonite shells. The box seems to vibrate and shake, as if whatever's inside wants out.</entitydescription.flakcannonammoboxdementonite>
+  <entityname.dementonitecoilgunammobox>Dementonite Ammunition Box</entityname.dementonitecoilgunammobox>
+  <entitydescription.dementonitecoilgunammobox>Coilgun ammunition made of living alien material. The box seems to vibrate and shake, as if whatever's inside wants out.</entitydescription.dementonitecoilgunammobox>
+  <entityname.scrapbotspawner>Scrap Bot</entityname.scrapbotspawner>
+  <entitydescription.scrapbotspawner>Build a hungry machine to turn your metals into scrap.</entitydescription.scrapbotspawner>
+  <entityname.radioactivematerial>Radioactive Material</entityname.radioactivematerial>
+  <entitydescription.radioactivematerial>A clump of radioactive metals. It can be dismantled for uranium.</entitydescription.radioactivematerial>
+  <entityname.fissilelauncher>Fissile Launcher</entityname.fissilelauncher>
+  <entitydescription.fissilelauncher>A much more crude counterpart to the "Rapid Fissile Accelerator," the fissile launcher was designed by someone who was fed up with lasers and wanted explosions instead. Incredibly dangerous in the wrong hands and highly illegal.</entitydescription.fissilelauncher>
+  <entityname.radthrower>Radthrower</entityname.radthrower>
+  <entitydescription.radthrower>A modified flamer that shoots jets of radioactive aerosol that will burn and irradiate anything on the receiving end.</entitydescription.radthrower>
+  <entityname.radtank>Radioactive Aerosol Tank</entityname.radtank>
+  <entitydescription.radtank>A tank of radioactive aerosol for the Radthrower.</entitydescription.radtank>
+  <entityname.pabspawner>Personal Assistant Bot</entityname.pabspawner>
+  <entitydescription.pabspawner>Build a personal assistant machine to carry your belongings and provide light.</entitydescription.pabspawner>
+  <entityname.medbackpack>Medpack</entityname.medbackpack>
+  <entitydescription.medbackpack>A lightweight backpack designed to carry a large amount of medical supplies without inhibiting movement in an emergency.</entitydescription.medbackpack>
+  <entityname.endwormtrophy>Endworm Trophy</entityname.endwormtrophy>
+  <entitydescription.endwormtrophy>A trophy made from an Endworm fang.</entitydescription.endwormtrophy>
+  <entityname.charybdistrophy>Charybdis Trophy</entityname.charybdistrophy>
+  <entitydescription.charybdistrophy>A trophy made from the jaw of a Charybdis.</entitydescription.charybdistrophy>
+  <entityname.latchertrophy>Latcher Trophy</entityname.latchertrophy>
+  <entitydescription.latchertrophy>A trophy made from a Latcher eye impaled on its own tooth.</entitydescription.latchertrophy>
+  <entityname.joviangrail>Jovian Grail</entityname.joviangrail>
+  <entitydescription.joviangrail>A strange alien artifact of great significance. It turns water into ethanol. It can also be used as an improvised melee weapon.</entitydescription.joviangrail>
+  <entityname.oldsailorswallet>Old Sailor's Wallet</entityname.oldsailorswallet>
+  <entitydescription.oldsailorswallet>An old sailor's wallet. Could fetch a few marks at a station.</entitydescription.oldsailorswallet>
+  <entityname.mk1securitygear>Mk1 Security Gear</entityname.mk1securitygear>
+  <entitydescription.mk1securitygear>A set of refurbished MK1 Security Gear, offering increased protection. This design was retired in favor of the cheaper and easier to mass-produce alternative.</entitydescription.mk1securitygear>
+  <entityname.mk1securityhelmet>Mk1 Security Helmet</entityname.mk1securityhelmet>
+  <entitydescription.mk1securityhelmet>A refurbished MK1 Security helmet, offering increased protection over other ballistic helmets. This design was retired in favor of the cheaper and easier to mass-produce alternative.</entitydescription.mk1securityhelmet>
+  <entityname.allinonehelmet>All-In-One Helmet</entityname.allinonehelmet>
+  <entitydescription.allinonehelmet>A brilliant invention that combines a health scanner, thermal goggles, electrician goggles, an iron helmet, and a smoking pipe, decorated with clown makeup.</entitydescription.allinonehelmet>
+  <entityname.mk1thermalhelmet>Mk1 Advanced Security Helmet</entityname.mk1thermalhelmet>
+  <entitydescription.mk1thermalhelmet>An advanced Mk1 thermal helmet that combines a health scanner, thermal goggles, and electrician goggles.</entitydescription.mk1thermalhelmet>
+  <entityname.fulguriumrevolverround>Fulgurium Revolver Round</entityname.fulguriumrevolverround>
+  <entitydescription.fulguriumrevolverround>A .38 round for the revolver, fashioned with a fulgurium core. While it has lower limb severance and physical damage, it has much higher stun and EMP damage.</entitydescription.fulguriumrevolverround>
+  <entityname.fulguriumsmgmagazine>Fulgurium SMG Magazine</entityname.fulguriumsmgmagazine>
+  <entitydescription.fulguriumsmgmagazine>A magazine for .45 caliber fulgurium SMG rounds. While it has lower limb severance and physical damage, it has much higher stun and EMP damage.</entitydescription.fulguriumsmgmagazine>
+  <entityname.fulguriumsmground>Fulgurium SMG Round</entityname.fulguriumsmground>
+  <entitydescription.fulguriumsmground>A .45 caliber fulgurium submachine gun round. While it has lower limb severance and physical damage, it has much higher stun and EMP damage.</entitydescription.fulguriumsmground>
+  <entityname.fulguriumriflebullet>Fulgurium Rifle Round</entityname.fulguriumriflebullet>
+  <entitydescription.fulguriumriflebullet>A .30 caliber round for the rifle, fashioned with a fulgurium core. While it has lower limb severance and physical damage, it has much higher stun and EMP damage.</entitydescription.fulguriumriflebullet>
+  <entityname.fulguriumshotgunshell>Fulgurium Shotgun Shell</entityname.fulguriumshotgunshell>
+  <entitydescription.fulguriumshotgunshell>Fulgurium ammunition for a shotgun. While it has lower limb severance and physical damage, it has much higher stun and EMP damage.</entitydescription.fulguriumshotgunshell>
+  <entityname.incendiaryrevolverround>Incendiary Revolver Round</entityname.incendiaryrevolverround>
+  <entitydescription.incendiaryrevolverround>A .38 round for the revolver, fashioned with an incendium core. While it has lower physical damage, it has higher penetration and burn damage.</entitydescription.incendiaryrevolverround>
+  <entityname.incendiarysmgmagazine>Incendiary SMG Magazine</entityname.incendiarysmgmagazine>
+  <entitydescription.incendiarysmgmagazine>A magazine for .45 caliber incendium SMG rounds. While it has lower physical damage, it has higher penetration and burn damage.</entitydescription.incendiarysmgmagazine>
+  <entityname.incendiarysmground>Incendiary SMG Round</entityname.incendiarysmground>
+  <entitydescription.incendiarysmground>A .45 caliber incendium submachine gun round. While it has lower physical damage, it has higher penetration and burn damage.</entitydescription.incendiarysmground>
+  <entityname.incendiaryriflebullet>Incendiary Rifle Round</entityname.incendiaryriflebullet>
+  <entitydescription.incendiaryriflebullet>A .30 caliber round for the rifle, fashioned with an incendium core. While it has lower physical damage, it has higher penetration and burn damage.</entitydescription.incendiaryriflebullet>
+  <entityname.incendiaryshotgunshell>Incendiary Shotgun Shell</entityname.incendiaryshotgunshell>
+  <entitydescription.incendiaryshotgunshell>Incendium ammunition for a shotgun. While it has lower physical damage, it has higher penetration, severance and burn damage.</entitydescription.incendiaryshotgunshell>
+  <entityname.tadementoniteweldingtool>Dementonite Welding Tool</entityname.tadementoniteweldingtool>
+  <entitydescription.tadementoniteweldingtool>A welding tool that fixes hulls using dementonite nanobots that fuse with the metal, better than a standard welding tool. Requires Dementonite Fuel Tanks.</entitydescription.tadementoniteweldingtool>
+  <entityname.tadementonitetank>Dementonite Welding Tank</entityname.tadementonitetank>
+  <entitydescription.tadementonitetank>A fuel tank for a Dementonite Welding Tool.</entitydescription.tadementonitetank>
+  <entityname.scrapmachinepistol>Scrap Machine Pistol</entityname.scrapmachinepistol>
+  <entitydescription.scrapmachinepistol>A machine pistol that grinds up metal into pellets and fires them rapidly and inaccurately.</entitydescription.scrapmachinepistol>
+  <entityname.ironpellet>Iron Pellet</entityname.ironpellet>
+  <entityname.scrappellet>Scrap Pellet</entityname.scrappellet>
+  <entityname.steelpellet>Steel Pellet</entityname.steelpellet>
+  <entityname.ironbuckshot>Iron buckshot</entityname.ironbuckshot>
+  <entityname.scrapbuckshot>Scrap buckshot</entityname.scrapbuckshot>
+  <entityname.steelbuckshot>Steel buckshot</entityname.steelbuckshot>
+  <entityname.depletedfuelprojectile>Depleted Fuel Projectile</entityname.depletedfuelprojectile>
+  <entityname.fuelrodprojectile>Fuel Rod Projectile</entityname.fuelrodprojectile>
+  <entityname.thoriumfuelrodprojectile>Thorium Fuel Rod Projectile</entityname.thoriumfuelrodprojectile>
+  <entityname.fulguriumfuelrodprojectile>Fulgurium Fuel Rod Projectile</entityname.fulguriumfuelrodprojectile>
+  <entityname.fulguriumvolatilefuelrodprojectile>Volatile Fulgurium Fuel Rod Projectile</entityname.fulguriumvolatilefuelrodprojectile>
+  <entityname.riflebulletdepletedfuel>Depleted Fuel Rifle Round</entityname.riflebulletdepletedfuel>
+  <entitydescription.riflebulletdepletedfuel>A .30 caliber round for the rifle, fashioned out of depleted fuel. Along with increased penetration, the ammo has been special-made to also inflict radiation sickness on the target.</entitydescription.riflebulletdepletedfuel>
+  <entityname.shotgunshelldepletedfuel>Depleted Fuel Shotgun Shell</entityname.shotgunshelldepletedfuel>
+  <entitydescription.shotgunshelldepletedfuel>A shotgun shell, fashioned out of depleted fuel. Along with increased penetration, the ammo has been special-made to also inflict radiation sickness on the target.</entitydescription.shotgunshelldepletedfuel>
+  <entityname.flooder>Flooder</entityname.flooder>
+  <entitydescription.flooder>Equal parts alien technology and Honkmother magic, this "flamer" is more like a "flooder."</entitydescription.flooder>
+  <entityname.alienwatercell>Alien Water Cell</entityname.alienwatercell>
+  <entitydescription.alienwatercell>Some strange alien component that seems to produce endless quantities of water. It's no wonder Europa's an ocean.</entitydescription.alienwatercell>
+  <entityname.clownbooster>Clown Rocket Shoes</entityname.clownbooster>
+  <entitydescription.clownbooster>Makes you go faster, at great risk to yourself, for when you need to quickly escape the scene of a crime. Requires welding fuel. Use with caution.</entitydescription.clownbooster>
+  <entityname.clownvisor>Clown-O-Vision</entityname.clownvisor>
+  <entitydescription.clownvisor>A strange clown mask with some kind of electrical components inside. Looking at it makes you feel funny, but also sad at the same time.</entitydescription.clownvisor>
+  <entityname.zaphorn>Zappy Horn</entityname.zaphorn>
+  <entitydescription.zaphorn>This bike horn has a firing mechanism and space enough for a single stun dart. You could possibly surprise, distract, and stun your attacker long enough to get away.</entitydescription.zaphorn>
+  <entityname.smallhuskyegg>Genetically Modified Crawler Egg</entityname.smallhuskyegg>
+  <entitydescription.smallhuskyegg>This egg has been injected with human blood and crammed into a diving suit, just as the notes described. Next, time to add some calyx extract.</entitydescription.smallhuskyegg>
+  <entityname.huskyegg>Mutant Husked Crawler Egg</entityname.huskyegg>
+  <entitydescription.huskyegg>The egg has grown to envelope the diving suit that originally housed it. A dose of anabolic steroids should weaken the immune system and let the husk take hold. Whatever comes out will be a scientific marvel.</entitydescription.huskyegg>
+  <entityname.coffeebean>Coffee Bean</entityname.coffeebean>
+  <entitydescription.coffeebean>A coffee bean which can be replanted to grow a coffee plant, or turned into a bag of coffee beans to make a mug of coffee</entitydescription.coffeebean>
+  <entityname.coffeeplantpod>Coffee Berry Pod</entityname.coffeeplantpod>
+  <entitydescription.coffeeplantpod>A cluster of coffee berries which can be ground down in a deconstructor for their beans.</entitydescription.coffeeplantpod>
+  <entityname.coffeebag>Coffee Bag</entityname.coffeebag>
+  <entitydescription.coffeebag>A bag of coffee beans which can be brewed into fresh coffee with a mug.</entitydescription.coffeebag>
+  <entityname.emptymug>Empty Mug</entityname.emptymug>
+  <entitydescription.emptymug>An empty ceramic mug, waiting to hold a delicious beverage.</entitydescription.emptymug>
+  <entityname.coffeemug>Coffee Mug</entityname.coffeemug>
+  <entitydescription.coffeemug>A ceramic mug filled with piping hot coffee. This will sober any sailor up and give them energy to get through the day.</entitydescription.coffeemug>
+  <entityname.captainsblendbag>Captain's Blend Bag</entityname.captainsblendbag>
+  <entitydescription.captainsblendbag>A bag of blended coffee. An old recipe passed down by sea captains, two parts coffee, one part tobacco.</entitydescription.captainsblendbag>
+  <entityname.captainsmug>Captain's Mug</entityname.captainsmug>
+  <entitydescription.captainsmug>A ceramic mug filled with piping hot Captain's Blend coffee. This stuff will sober you up, give you energy, and has everything a captain needs to clear their head.</entitydescription.captainsmug>
+  <!-- Talent trees -->
+  <talenttree.playingwithgeiger>Playing With Geiger</talenttree.playingwithgeiger>
+  <talenttree.ticktickboom>Tick Tick BOOM</talenttree.ticktickboom>
+  <talenttree.swarmageddon>Swarmageddon</talenttree.swarmageddon>
+  <talenttree.garbagedisposal>Garbage Disposal</talenttree.garbagedisposal>
+  <talenttree.frontlineaid>Frontline Aid</talenttree.frontlineaid>
+  <talenttree.battlemedic>Battle Medic</talenttree.battlemedic>
+  <talenttree.treasurehunter>Treasure Hunter</talenttree.treasurehunter>
+  <talenttree.trophyhunter>Trophy Hunter</talenttree.trophyhunter>
+  <talenttree.shockvalue>Shock Value</talenttree.shockvalue>
+  <talenttree.firingsquad>Firing Squad</talenttree.firingsquad>
+  <talenttree.scrapnado>Scrapnado</talenttree.scrapnado>
+  <talenttree.nanobots>Nano-Bots</talenttree.nanobots>
+  <talenttree.bigtopspeed>Big Top Speed</talenttree.bigtopspeed>
+  <talenttree.collaborativeproject>Collaborative Project</talenttree.collaborativeproject>
+  <talenttree.operator>Operator</talenttree.operator>
+  <talenttree.duelist>Duelist</talenttree.duelist>
+  <talenttree.wakeupcall>Wake-Up Call</talenttree.wakeupcall>
+  <!-- Talents -->
+  <talentname.playingwithgeiger>Playing With Geiger</talentname.playingwithgeiger>
+  <talentdescription.playingwithgeiger>Being affected by radiation sickness will slowly heal you.</talentdescription.playingwithgeiger>
+  <talentname.ticktickboom>Tick Tick BOOM</talentname.ticktickboom>
+  <talentname.swarmageddon>Swarmageddon</talentname.swarmageddon>
+  <talentname.garbagedisposal>Garbage Disposal</talentname.garbagedisposal>
+  <talentdescription.garbagedisposal>Build a harmless drone that converts metals into scrap.</talentdescription.garbagedisposal>
+  <talentname.frontlineaid>Frontline Aid</talentname.frontlineaid>
+  <talentdescription.frontlineaid>Your bloodpacks are more effective.</talentdescription.frontlineaid>
+  <talentname.battlemedic>Battle Medic</talentname.battlemedic>
+  <talentdescription.battlemedic>Medical items are [amount]% more potent for every nearby enemy. Up to [maxamount]%. \nGain additional [skillname] equal to [skillpercentage]% of your [skill].</talentdescription.battlemedic>
+  <talentname.treasurehunter>Treasure Hunter</talentname.treasurehunter>
+  <talentdescription.treasurehunter>Gain a [amount]% bonus to xp and money for completing Salvage missions. \nWhenever you open a container in a wreck for the first time, you have a [probability]% chance of finding an ‖color:gui.orange‖Old Sailor's Wallet‖end‖ which can be sold. \nYou also have a rare chance of finding a valuable ‖color:gui.orange‖Jovian Grail‖end‖.</talentdescription.treasurehunter>
+  <talentname.trophyhunter>Trophy Hunter</talentname.trophyhunter>
+  <talentdescription.trophyhunter>When looting an abyss monster, you will find ‖color:gui.orange‖Ahab's Spears‖end‖ and a ‖color:gui.orange‖Trophy‖end‖ and which can be displayed on walls or sold.</talentdescription.trophyhunter>
+  <talentdescription.trophyhunterharpoon>Your attacks with harpoons are [value]% more powerful.</talentdescription.trophyhunterharpoon>
+  <talentdescription.trophyhunterknife>Your attacks with knives are [value]% more powerful.</talentdescription.trophyhunterknife>
+  <talentname.shockvalue>Shock Value</talentname.shockvalue>
+  <talentname.firingsquad>Firing Squad</talentname.firingsquad>
+  <talentname.scrapnado>Scrapnado</talentname.scrapnado>
+  <talentdescription.scrapnado>Increase damage with [itemname] by [amount]%.</talentdescription.scrapnado>
+  <talentdescription.ironstormscrapbuff>Increase damage with [itemname] by [amount]%.</talentdescription.ironstormscrapbuff>
+  <talentname.nanobots>Nano-Bots</talentname.nanobots>
+  <talentdescription.disloyalscumknife>Increase damage with knives against humans by [amount]%.</talentdescription.disloyalscumknife>
+  <talentname.bigtopspeed>Big Top Speed</talentname.bigtopspeed>
+  <talentname.collaborativeproject>Collaborative Project</talentname.collaborativeproject>
+  <talentdescription.collaborativeproject>Gain a boost of [amount] to each skill as well as [amount]% bonus to [stattype1], [stattype2] and ‖color:gui.orange‖Non-Turret Damage‖end‖. \nAlso gain [amount]% resistance to [affliction1] and [affliction2].</talentdescription.collaborativeproject>
+  <talentname.operator>Operator</talentname.operator>
+  <talentdescription.loyalassistantdrone>Build a harmless drone that carries items and provides light.</talentdescription.loyalassistantdrone>
+  <talentname.duelist>Duelist</talentname.duelist>
+  <talentdescription.duelist>On shooting a target, apply an affliciton ‖color:gui.orange‖Marked For Death‖end‖ that increases gunshot damage taken by [bonus]%.</talentdescription.duelist>
+  <talentname.wakeupcall>Wake-Up Call</talentname.wakeupcall>
+  <talentdescription.wakeupcall>On drinking [itemname], gain [amount1]% [stattype] as well as an additional [amount2]% resistance to ‖color:gui.orange‖Psychosis, Opiate and Chem Addiction‖end‖ until the end of the mission.</talentdescription.wakeupcall>
+  <talentname.rallyingcry>Rallying Cry</talentname.rallyingcry>
+  <talentdescription.rallyingcry>Your crew gains various buffs when someone either falls unconscious or the ship is [flooded]% flooded: \nOn ship flooding or crewmate unconsciousness, ‖color:gui.orange‖Captain‖end‖ and ‖color:gui.orange‖Assistant‖end‖ gain [movementspeed]% movement speed, [repairspeed]% repair speed and [amount]% damage resistance.</talentdescription.rallyingcry>
+  <talentdescription.rallyingcryrepair>On ship flooding, ‖color:gui.orange‖Engineer‖end‖ and ‖color:gui.orange‖Mechanic‖end‖ repair [repairspeed]% faster as well as gain a [amount]% damage resistance.</talentdescription.rallyingcryrepair>
+  <talentdescription.rallyingcryspeed>On crewmate unconsciousness, ‖color:gui.orange‖Security‖end‖ and ‖color:gui.orange‖Medic‖end‖ gain [movementspeed]% movement speed as well as [amount]% damage resistance.</talentdescription.rallyingcryspeed>
+  <!-- Afflictions -->
+  <afflictionname.leechdrained>Leech Drained</afflictionname.leechdrained>
+  <afflictiondescription.drained>This creature was recently drained of blood by an alien parasite.</afflictiondescription.drained>
+  <afflictionname.markedfordeath>Marked For Death</afflictionname.markedfordeath>
+  <afflictiondescription.markedfordeath>Somebody wants you dead.</afflictiondescription.markedfordeath>
+  <afflictionname.rallyingcrymedic>Rallying Cry</afflictionname.rallyingcrymedic>
+  <afflictiondescription.rallyingcrymedic>Your captain has ordered the crew to rally during this emergency.</afflictiondescription.rallyingcrymedic>
+  <afflictionname.rallyingcrysecurity>Rallying Cry</afflictionname.rallyingcrysecurity>
+  <afflictiondescription.rallyingcrysecurity>Your captain has ordered the crew to rally during this emergency.</afflictiondescription.rallyingcrysecurity>
+  <afflictionname.rallyingcryengineer>Rallying Cry</afflictionname.rallyingcryengineer>
+  <afflictiondescription.rallyingcryengineer>Your captain has ordered the crew to rally during this emergency.</afflictiondescription.rallyingcryengineer>
+  <afflictionname.rallyingcrymechanic>Rallying Cry</afflictionname.rallyingcrymechanic>
+  <afflictiondescription.rallyingcrymechanic>Your captain has ordered the crew to rally during this emergency.</afflictiondescription.rallyingcrymechanic>
+  <afflictionname.rallyingcryassistant>Rallying Cry</afflictionname.rallyingcryassistant>
+  <afflictiondescription.rallyingcryassistant>Your captain has ordered the crew to rally during this emergency.</afflictiondescription.rallyingcryassistant>
+  <afflictionname.rallyingcrycaptain>Rallying Cry</afflictionname.rallyingcrycaptain>
+  <afflictiondescription.rallyingcrycaptain>You have ordered the crew to rally during this emergency.</afflictiondescription.rallyingcrycaptain>
+  <afflictionname.clearhead>Clear Head</afflictionname.clearhead>
+  <afflictiondescription.clearhead>You feel focused and resistant to psychosis and opiate and chem addiction.</afflictiondescription.clearhead>
+  <afflictionname.clearheadcaptain>Clear Head</afflictionname.clearheadcaptain>
+  <afflictiondescription.clearheadcaptain>You feel especially focused, ready to get work done, and resistant to psychosis and opiate and chem addiction.</afflictiondescription.clearheadcaptain>
+</infotexts>
