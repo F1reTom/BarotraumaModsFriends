@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Anime Poster Pack" path="Mods/Anime Poster Pack/filelist.xml" corepackage="false" gameversion="0.9.10.0">
+  <Item file="Mods/Anime Poster Pack/posters.xml" />
+  <None file="Mods/Anime Poster Pack/images/astolfo.jpg" />
+  <None file="Mods/Anime Poster Pack/images/naisu.jpg" />
+  <None file="Mods/Anime Poster Pack/images/reina.jpg" />
+  <None file="Mods/Anime Poster Pack/images/violetposter.jpg" />
+  <None file="Mods/Anime Poster Pack/images/asuka.jpg" />
+  <None file="Mods/Anime Poster Pack/images/holo.jpg" />
+  <None file="Mods/Anime Poster Pack/images/misato.jpg" />
+  <None file="Mods/Anime Poster Pack/images/zero2.jpg" />
+  <None file="Mods/Anime Poster Pack/images/risingsun.jpg" />
+  <None file="Mods/Anime Poster Pack/images/pycca.jpg" />
+  <None file="Mods/Anime Poster Pack/images/aqua.png" />
+  <None file="Mods/Anime Poster Pack/images/asuna.png" />
+  <None file="Mods/Anime Poster Pack/images/asuna2.png" />
+  <None file="Mods/Anime Poster Pack/images/dragon.png" />
+  <None file="Mods/Anime Poster Pack/images/emilia.png" />
+  <None file="Mods/Anime Poster Pack/images/hitagi.png" />
+  <None file="Mods/Anime Poster Pack/images/nurse.png" />
+  <None file="Mods/Anime Poster Pack/images/ozen.png" />
+  <None file="Mods/Anime Poster Pack/images/pycca_2.png" />
+  <None file="Mods/Anime Poster Pack/images/pycca_3.png" />
+  <None file="Mods/Anime Poster Pack/images/rem.png" />
+  <None file="Mods/Anime Poster Pack/images/rin.png" />
+  <None file="Mods/Anime Poster Pack/images/tohru.png" />
+  <None file="Mods/Anime Poster Pack/images/zero2_2.png" />
+</contentpackage>

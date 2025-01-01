@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+    <Item
+            name="astolfo_poster"
+            identifier="astolfo_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/astolfo.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="asuka_poster"
+            identifier="asuka_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/asuka.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="holo_poster"
+            identifier="holo_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/holo.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="misato_poster"
+            identifier="misato_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/misato.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="naisu_poster"
+            identifier="naisu_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/naisu.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="pycca_poster"
+            identifier="pycca_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/pycca.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="reina_poster"
+            identifier="reina_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/reina.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="risingsun_poster"
+            identifier="risingsun_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/risingsun.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="violet_poster"
+            identifier="violet_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/violetposter.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="zero2_poster"
+            identifier="zero2_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/zero2.jpg"  depth="0.01" sourcerect="0,0,60,80"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="aqua_poster"
+            identifier="aqua_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/aqua.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="asuna_poster"
+            identifier="asuna_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/asuna.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="asuna2_poster"
+            identifier="asuna2_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/asuna2.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="dragon_poster"
+            identifier="dragon_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/dragon.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="emilia_poster"
+            identifier="emilia_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/emilia.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="hitagi_poster"
+            identifier="hitagi_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/hitagi.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="ozen_poster"
+            identifier="ozen_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/ozen.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="pycca2_poster"
+            identifier="pycca2_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/pycca_2.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="pycca3_poster"
+            identifier="pycca3_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/pycca_3.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="rem_poster"
+            identifier="rem_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/rem.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="rin_poster"
+            identifier="rin_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/rin.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="tohru_poster"
+            identifier="tohru_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/tohru.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="zero2_2_poster"
+            identifier="zero2_2_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/zero2_2.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+    <Item
+            name="nurse_poster"
+            identifier="nurse_poster"
+            interactdistance="0"
+            resizehorizontal="true"
+            resizevertical="true">
+
+        <Sprite texture="Mods/Anime Poster Pack/images/nurse.png"  depth="0.01" sourcerect="0,0,80,100"/>
+
+        <ItemLabel/>
+    </Item>
+</Items>
